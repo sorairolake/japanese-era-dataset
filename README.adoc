@@ -1,0 +1,30 @@
+// SPDX-FileCopyrightText: None
+//
+// SPDX-License-Identifier: CC0-1.0
+
+= TOML files for the Japanese era
+:project-url: https://github.com/sorairolake/japanese-era-toml
+:shields-url: https://img.shields.io
+:ci-badge: {shields-url}/github/actions/workflow/status/sorairolake/japanese-era-toml/CI.yaml?branch=develop&style=for-the-badge&logo=github&label=CI
+:ci-url: {project-url}/actions?query=branch%3Adevelop+workflow%3ACI++
+:enwp-url: https://en.wikipedia.org
+:enwp-article-url: {enwp-url}/wiki/Japanese_era_name
+:reuse-spec-url: https://reuse.software/spec/
+
+image:{ci-badge}[CI,link={ci-url}]
+
+This repository contains TOML files representing the
+{enwp-article-url}[Japanese era].
+
+== License
+
+Copyright (C) 2024 Shun Sakai
+
+. Unless otherwise noted, files are distributed under the terms of the
+  _Creative Commons Attribution 4.0 International Public License_.
+. In addition, some files are distributed under the terms of the _CC0 1.0
+  Universal_.
+
+This project is compliant with version 3.0 of the
+{reuse-spec-url}[_REUSE Specification_]. See copyright notices of individual
+files for more details on copyright and licensing information.
