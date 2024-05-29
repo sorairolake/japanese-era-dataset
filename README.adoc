@@ -2,11 +2,11 @@
 //
 // SPDX-License-Identifier: CC0-1.0
 
-= TOML files for the Japanese era
+= Dataset of the Japanese era
 :github-url: https://github.com
-:project-url: {github-url}/sorairolake/japanese-era-toml
+:project-url: {github-url}/sorairolake/japanese-era-dataset
 :shields-url: https://img.shields.io
-:ci-badge: {shields-url}/github/actions/workflow/status/sorairolake/japanese-era-toml/CI.yaml?branch=develop&style=for-the-badge&logo=github&label=CI
+:ci-badge: {shields-url}/github/actions/workflow/status/sorairolake/japanese-era-dataset/CI.yaml?branch=develop&style=for-the-badge&logo=github&label=CI
 :ci-url: {project-url}/actions?query=branch%3Adevelop+workflow%3ACI++
 :enwp-url: https://en.wikipedia.org
 :enwp-article-url: {enwp-url}/wiki/Japanese_era_name
@@ -21,8 +21,8 @@
 
 link:README.ja.adoc[日本語]
 
-This repository contains TOML files representing the
-{enwp-article-url}[Japanese era].
+This repository contains a dataset of the {enwp-article-url}[Japanese era] in
+TOML format.
 
 == Structure
 
@@ -128,7 +128,7 @@ IMPORTANT: {pyyaml-url}[_PyYAML_] is required to convert to YAML files.
 
 == Acknowledgment
 
-.The TOML files were created using the following:
+.This dataset was created using the following:
 * {jawp-article-url}[元号一覧 (日本)] on the Japanese Wikipedia (for the era
   name in kanji).
 * {enwp-article-url}[Japanese era name] on the English Wikipedia (for the era

@@ -2,11 +2,11 @@
 //
 // SPDX-License-Identifier: CC0-1.0
 
-= 日本の元号のためのTOMLファイル
+= 日本の元号のデータセット
 :github-url: https://github.com
-:project-url: {github-url}/sorairolake/japanese-era-toml
+:project-url: {github-url}/sorairolake/japanese-era-dataset
 :shields-url: https://img.shields.io
-:ci-badge: {shields-url}/github/actions/workflow/status/sorairolake/japanese-era-toml/CI.yaml?branch=develop&style=for-the-badge&logo=github&label=CI
+:ci-badge: {shields-url}/github/actions/workflow/status/sorairolake/japanese-era-dataset/CI.yaml?branch=develop&style=for-the-badge&logo=github&label=CI
 :ci-url: {project-url}/actions?query=branch%3Adevelop+workflow%3ACI++
 :enwp-url: https://en.wikipedia.org
 :enwp-article-url: {enwp-url}/wiki/Japanese_era_name
@@ -21,7 +21,7 @@
 
 link:README.adoc[English]
 
-このリポジトリには、link:{jawp-article-url}[日本の元号]を表すTOMLファイルが含まれています。
+このリポジトリには、TOMLフォーマットのlink:{jawp-article-url}[日本の元号]のデータセットが含まれています。
 
 == 構造
 
@@ -125,7 +125,7 @@ IMPORTANT: YAMLファイルへ変換するにはlink:{pyyaml-url}[_PyYAML_]が�
 
 == 謝辞
 
-.TOMLファイルは以下を参照して作成しました:
+.このデータセットは以下を参照して作成しました:
 * 日本語版ウィキペディアのlink:{jawp-article-url}[元号一覧 (日本)]（漢字での元号名）。
 * 英語版ウィキペディアのlink:{enwp-article-url}[Japanese era name]（英語での元号名）。
 * link:{github-url}/nagataaaas/Japanera[]（元号の開始日と終了日）。
