@@ -3,12 +3,18 @@
 // SPDX-License-Identifier: CC0-1.0
 
 = TOML files for the Japanese era
-:project-url: https://github.com/sorairolake/japanese-era-toml
+:github-url: https://github.com
+:project-url: {github-url}/sorairolake/japanese-era-toml
 :shields-url: https://img.shields.io
 :ci-badge: {shields-url}/github/actions/workflow/status/sorairolake/japanese-era-toml/CI.yaml?branch=develop&style=for-the-badge&logo=github&label=CI
 :ci-url: {project-url}/actions?query=branch%3Adevelop+workflow%3ACI++
 :enwp-url: https://en.wikipedia.org
 :enwp-article-url: {enwp-url}/wiki/Japanese_era_name
+:assets-dir: assets
+:toml-dir: {assets-dir}/toml
+:pyyaml-url: {github-url}/yaml/pyyaml
+:jawp-url: https://ja.wikipedia.org
+:jawp-article-url: {enwp-url}/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_(%E6%97%A5%E6%9C%AC)
 :reuse-spec-url: https://reuse.software/spec/
 
 image:{ci-badge}[CI,link={ci-url}]
@@ -16,14 +22,121 @@ image:{ci-badge}[CI,link={ci-url}]
 This repository contains TOML files representing the
 {enwp-article-url}[Japanese era].
 
+== Structure
+
+The era is represented by the table.
+
+.For example, the table representing the Heisei era is:
+[source,toml]
+----
+[era.heisei]
+kanji = "平成"
+english = "Heisei"
+start = 1989-01-08
+end = 2019-05-01
+----
+
+.The meanings of the key/value pairs are as follows:
+`kanji`::
+
+  The era name in kanji.
+
+`english`::
+
+  The era name in English.
+
+`start`::
+
+  The start date of the era.
+
+`end`::
+
+  The end date of the era. This key doesn't exist in the current era.
+
+=== Directory structure
+
+.The TOML files representing the eras are as follows:
+{toml-dir}/asuka.toml[]::
+
+  It contains the eras in the Asuka period (from _Taika_ to _Wadō_).
+
+{toml-dir}/nara.toml[]::
+
+  It contains the eras in the Nara period (from _Reiki_ to _Enryaku_).
+
+{toml-dir}/heian.toml[]::
+
+  It contains the eras in the Heian period (from _Daidō_ to _Genryaku_).
+
+{toml-dir}/kamakura.toml[]::
+
+  It contains the eras in the Kamakura period (from _Bunji_ to _Karyaku_).
+
+{toml-dir}/southern-court.toml[]::
+
+  It contains the eras of the Southern Court (from _Gentoku_ to _Genchū_).
+
+{toml-dir}/northern-court.toml[]::
+
+  It contains the eras of the Northern Court (from _Gentoku_ to _Meitoku_).
+
+{toml-dir}/muromachi.toml[]::
+
+  It contains the eras in the Muromachi period (from _Ōei_ to _Genki_).
+
+{toml-dir}/azuchi-momoyama.toml[]::
+
+  It contains the eras in the Azuchi–Momoyama period (from _Tenshō_ to
+  _Keichō_).
+
+{toml-dir}/edo.toml[]::
+
+  It contains the eras in the Edo period (from _Genna_ to _Keiō_).
+
+{toml-dir}/modern.toml[]::
+
+  It contains the eras of the modern era (after _Meiji_).
+
+=== Convert to other formats
+
+This project contains Python scripts for converting TOML files to JSON files or
+YAML files.
+
+NOTE: When the `end` key doesn't exist, `null` is set to it.
+
+IMPORTANT: These scripts require Python 3.11+.
+
+.To convert to JSON files
+[source,sh]
+----
+./scripts/toml2json.py
+----
+
+This will output JSON files in the `{assets-dir}/json` directory.
+
+.To convert to YAML files
+[source,sh]
+----
+./scripts/toml2yaml.py
+----
+
+This will output YAML files in the `{assets-dir}/yaml` directory.
+
+IMPORTANT: {pyyaml-url}[_PyYAML_] is required to convert to YAML files.
+
+== Acknowledgment
+
+.The TOML files were created using the following:
+* {jawp-article-url}[元号一覧 (日本)] on the Japanese Wikipedia (for the era
+  name in kanji).
+* {enwp-article-url}[Japanese era name] on the English Wikipedia (for the era
+  name in English).
+* {github-url}/nagataaaas/Japanera (for the start date and the end date).
+
 == License
 
-Copyright (C) 2024 Shun Sakai
-
-. Unless otherwise noted, files are distributed under the terms of the
-  _Creative Commons Attribution 4.0 International Public License_.
-. In addition, some files are distributed under the terms of the _CC0 1.0
-  Universal_.
+Unless otherwise noted, the contents of this repository are distributed under
+the terms of the _CC0 1.0 Universal_.
 
 This project is compliant with version 3.0 of the
 {reuse-spec-url}[_REUSE Specification_]. See copyright notices of individual

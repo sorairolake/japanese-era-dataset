@@ -1,0 +1,147 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[era.oei]
+kanji = "応永"
+english = "Ōei"
+start = 1394-08-10
+end = 1428-06-19
+
+[era.shocho]
+kanji = "正長"
+english = "Shōchō"
+start = 1428-06-19
+end = 1429-10-12
+
+[era.eikyo]
+kanji = "永享"
+english = "Eikyō"
+start = 1429-10-12
+end = 1441-03-19
+
+[era.kakitsu]
+kanji = "嘉吉"
+english = "Kakitsu"
+start = 1441-03-19
+end = 1444-03-03
+
+[era.bunnan]
+kanji = "文安"
+english = "Bun'an"
+start = 1444-03-03
+end = 1449-08-25
+
+[era.hotoku]
+kanji = "宝徳"
+english = "Hōtoku"
+start = 1449-08-25
+end = 1452-08-19
+
+[era.kyotoku]
+kanji = "享徳"
+english = "Kyōtoku"
+start = 1452-08-19
+end = 1455-09-15
+
+[era.kosho]
+kanji = "康正"
+english = "Kōshō"
+start = 1455-09-15
+end = 1457-10-25
+
+[era.choroku]
+kanji = "長禄"
+english = "Chōroku"
+start = 1457-10-25
+end = 1461-02-10
+
+[era.kansho]
+kanji = "寛正"
+english = "Kanshō"
+start = 1461-02-10
+end = 1466-03-23
+
+[era.bunsho]
+kanji = "文正"
+english = "Bunshō"
+start = 1466-03-23
+end = 1467-04-18
+
+[era.onin]
+kanji = "応仁"
+english = "Ōnin"
+start = 1467-04-18
+end = 1469-06-17
+
+[era.bunmei]
+kanji = "文明"
+english = "Bunmei"
+start = 1469-06-17
+end = 1487-08-18
+
+[era.chokyo]
+kanji = "長享"
+english = "Chōkyō"
+start = 1487-08-18
+end = 1489-09-25
+
+[era.entoku]
+kanji = "延徳"
+english = "Entoku"
+start = 1489-09-25
+end = 1492-08-21
+
+[era.meio]
+kanji = "明応"
+english = "Meiō"
+start = 1492-08-21
+end = 1501-03-28
+
+[era.bunki]
+kanji = "文亀"
+english = "Bunki"
+start = 1501-03-28
+end = 1504-03-26
+
+[era.eisho]
+kanji = "永正"
+english = "Eishō"
+start = 1504-03-26
+end = 1521-10-03
+
+[era.daiei]
+kanji = "大永"
+english = "Daiei"
+start = 1521-10-03
+end = 1528-09-13
+
+[era.kyoroku]
+kanji = "享禄"
+english = "Kyōroku"
+start = 1528-09-13
+end = 1532-09-08
+
+[era.tenbun]
+kanji = "天文"
+english = "Tenbun"
+start = 1532-09-08
+end = 1555-11-17
+
+[era.koji]
+kanji = "弘治"
+english = "Kōji"
+start = 1555-11-17
+end = 1558-03-28
+
+[era.eiroku]
+kanji = "永禄"
+english = "Eiroku"
+start = 1558-03-28
+end = 1570-06-06
+
+[era.genki]
+kanji = "元亀"
+english = "Genki"
+start = 1570-06-06
+end = 1573-09-04

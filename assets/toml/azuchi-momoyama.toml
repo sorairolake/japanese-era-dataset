@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[era.tensho]
+kanji = "天正"
+english = "Tenshō"
+start = 1573-09-04
+end = 1593-01-10
+
+[era.bunroku]
+kanji = "文禄"
+english = "Bunroku"
+start = 1593-01-10
+end = 1596-12-16
+
+[era.keicho]
+kanji = "慶長"
+english = "Keichō"
+start = 1596-12-16
+end = 1615-09-05

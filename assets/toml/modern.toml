@@ -1,0 +1,32 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[era.meiji]
+kanji = "明治"
+english = "Meiji"
+start = 1868-01-23
+end = 1912-07-30
+
+[era.taisho]
+kanji = "大正"
+english = "Taishō"
+start = 1912-07-30
+end = 1926-12-25
+
+[era.showa]
+kanji = "昭和"
+english = "Shōwa"
+start = 1926-12-25
+end = 1989-01-08
+
+[era.heisei]
+kanji = "平成"
+english = "Heisei"
+start = 1989-01-08
+end = 2019-05-01
+
+[era.reiwa]
+kanji = "令和"
+english = "Reiwa"
+start = 2019-05-01

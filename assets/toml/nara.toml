@@ -1,0 +1,75 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[era.reiki]
+kanji = "霊亀"
+english = "Reiki"
+start = 0715-10-07
+end = 0717-12-28
+
+[era.yoro]
+kanji = "養老"
+english = "Yōrō"
+start = 0717-12-28
+end = 0724-03-07
+
+[era.jinki]
+kanji = "神亀"
+english = "Jinki"
+start = 0724-03-07
+end = 0729-09-06
+
+[era.tenpyo]
+kanji = "天平"
+english = "Tenpyō"
+start = 0729-09-06
+end = 0749-05-08
+
+[era.tenpyo-kanpo]
+kanji = "天平感宝"
+english = "Tenpyō-kanpō"
+start = 0749-05-08
+end = 0749-08-23
+
+[era.tenpyo-shoho]
+kanji = "天平勝宝"
+english = "Tenpyō-shōhō"
+start = 0749-08-23
+end = 0757-09-10
+
+[era.tenpyo-hoji]
+kanji = "天平宝字"
+english = "Tenpyō-hōji"
+start = 0757-09-10
+end = 0765-02-05
+
+[era.tenpyo-jingo]
+kanji = "天平神護"
+english = "Tenpyō-jingo"
+start = 0765-02-05
+end = 0767-09-17
+
+[era.jingo-keiun]
+kanji = "神護景雲"
+english = "Jingo-keiun"
+start = 0767-09-17
+end = 0770-10-27
+
+[era.hoki]
+kanji = "宝亀"
+english = "Hōki"
+start = 0770-10-27
+end = 0781-02-03
+
+[era.tenno]
+kanji = "天応"
+english = "Ten'ō"
+start = 0781-02-03
+end = 0782-10-04
+
+[era.enryaku]
+kanji = "延暦"
+english = "Enryaku"
+start = 0782-10-04
+end = 0806-06-12

@@ -1,0 +1,69 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[era.gentoku]
+kanji = "元徳"
+english = "Gentoku"
+start = 1329-09-30
+end = 1331-09-19
+
+[era.genko]
+kanji = "元弘"
+english = "Genkō"
+start = 1331-09-19
+end = 1334-03-13
+
+[era.kenmu]
+kanji = "建武"
+english = "Kenmu"
+start = 1334-03-13
+end = 1336-04-19
+
+[era.engen]
+kanji = "延元"
+english = "Engen"
+start = 1336-04-19
+end = 1340-06-02
+
+[era.kokoku]
+kanji = "興国"
+english = "Kōkoku"
+start = 1340-06-02
+end = 1347-01-28
+
+[era.shohei]
+kanji = "正平"
+english = "Shōhei"
+start = 1347-01-28
+end = 1370-08-24
+
+[era.kentoku]
+kanji = "建徳"
+english = "Kentoku"
+start = 1370-08-24
+end = 1372-05-09
+
+[era.bunchu]
+kanji = "文中"
+english = "Bunchū"
+start = 1372-05-09
+end = 1375-07-04
+
+[era.tenju]
+kanji = "天授"
+english = "Tenju"
+start = 1375-07-04
+end = 1381-03-14
+
+[era.kowa]
+kanji = "弘和"
+english = "Kōwa"
+start = 1381-03-14
+end = 1384-05-26
+
+[era.genchu]
+kanji = "元中"
+english = "Genchū"
+start = 1384-05-26
+end = 1392-11-27

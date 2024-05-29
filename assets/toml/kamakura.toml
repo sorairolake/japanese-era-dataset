@@ -1,0 +1,285 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[era.bunji]
+kanji = "文治"
+english = "Bunji"
+start = 1185-09-16
+end = 1190-05-23
+
+[era.kenkyu]
+kanji = "建久"
+english = "Kenkyū"
+start = 1190-05-23
+end = 1199-05-30
+
+[era.shoji]
+kanji = "正治"
+english = "Shōji"
+start = 1199-05-30
+end = 1201-03-26
+
+[era.kennin]
+kanji = "建仁"
+english = "Kennin"
+start = 1201-03-26
+end = 1204-03-30
+
+[era.genkyu]
+kanji = "元久"
+english = "Genkyū"
+start = 1204-03-30
+end = 1206-06-12
+
+[era.kennei]
+kanji = "建永"
+english = "Ken'ei"
+start = 1206-06-12
+end = 1207-11-23
+
+[era.jogen]
+kanji = "承元"
+english = "Jōgen"
+start = 1207-11-23
+end = 1211-04-30
+
+[era.kenryaku]
+kanji = "建暦"
+english = "Kenryaku"
+start = 1211-04-30
+end = 1214-01-25
+
+[era.kempo]
+kanji = "建保"
+english = "Kempo"
+start = 1214-01-25
+end = 1219-06-03
+
+[era.jokyu]
+kanji = "承久"
+english = "Jōkyū"
+start = 1219-06-03
+end = 1222-06-01
+
+[era.joo]
+kanji = "貞応"
+english = "Jōō"
+start = 1222-06-01
+end = 1225-01-07
+
+[era.gennin]
+kanji = "元仁"
+english = "Gennin"
+start = 1225-01-07
+end = 1225-06-04
+
+[era.karoku]
+kanji = "嘉禄"
+english = "Karoku"
+start = 1225-06-04
+end = 1228-01-25
+
+[era.antei]
+kanji = "安貞"
+english = "Antei"
+start = 1228-01-25
+end = 1229-04-07
+
+[era.kangi]
+kanji = "寛喜"
+english = "Kangi"
+start = 1229-04-07
+end = 1232-04-30
+
+[era.joei]
+kanji = "貞永"
+english = "Jōei"
+start = 1232-04-30
+end = 1233-06-01
+
+[era.tenpuku]
+kanji = "天福"
+english = "Tenpuku"
+start = 1233-06-01
+end = 1234-12-04
+
+[era.bunryaku]
+kanji = "文暦"
+english = "Bunryaku"
+start = 1234-12-04
+end = 1235-11-08
+
+[era.katei]
+kanji = "嘉禎"
+english = "Katei"
+start = 1235-11-08
+end = 1239-01-06
+
+[era.ryakunin]
+kanji = "暦仁"
+english = "Ryakunin"
+start = 1239-01-06
+end = 1239-03-20
+
+[era.enno]
+kanji = "延応"
+english = "En'ō"
+start = 1239-03-20
+end = 1240-08-12
+
+[era.ninji]
+kanji = "仁治"
+english = "Ninji"
+start = 1240-08-12
+end = 1243-03-25
+
+[era.kangen]
+kanji = "寛元"
+english = "Kangen"
+start = 1243-03-25
+end = 1247-04-12
+
+[era.hoji]
+kanji = "宝治"
+english = "Hōji"
+start = 1247-04-12
+end = 1249-05-09
+
+[era.kencho]
+kanji = "建長"
+english = "Kenchō"
+start = 1249-05-09
+end = 1256-10-31
+
+[era.kogen]
+kanji = "康元"
+english = "Kōgen"
+start = 1256-10-31
+end = 1257-04-07
+
+[era.shoka]
+kanji = "正嘉"
+english = "Shōka"
+start = 1257-04-07
+end = 1259-04-27
+
+[era.shogen]
+kanji = "正元"
+english = "Shōgen"
+start = 1259-04-27
+end = 1260-05-31
+
+[era.bunno]
+kanji = "文応"
+english = "Bun'ō"
+start = 1260-05-31
+end = 1261-03-29
+
+[era.kocho]
+kanji = "弘長"
+english = "Kōchō"
+start = 1261-03-29
+end = 1264-04-03
+
+[era.bunnei]
+kanji = "文永"
+english = "Bun'ei"
+start = 1264-04-03
+end = 1275-05-29
+
+[era.kenji]
+kanji = "建治"
+english = "Kenji"
+start = 1275-05-29
+end = 1278-03-30
+
+[era.koan]
+kanji = "弘安"
+english = "Kōan"
+start = 1278-03-30
+end = 1288-06-05
+
+[era.shoo]
+kanji = "正応"
+english = "Shōō"
+start = 1288-06-05
+end = 1293-09-13
+
+[era.einin]
+kanji = "永仁"
+english = "Einin"
+start = 1293-09-13
+end = 1299-06-01
+
+[era.shoan]
+kanji = "正安"
+english = "Shōan"
+start = 1299-06-01
+end = 1302-12-18
+
+[era.kengen]
+kanji = "乾元"
+english = "Kengen"
+start = 1302-12-18
+end = 1303-09-24
+
+[era.kagen]
+kanji = "嘉元"
+english = "Kagen"
+start = 1303-09-24
+end = 1307-01-26
+
+[era.tokuji]
+kanji = "徳治"
+english = "Tokuji"
+start = 1307-01-26
+end = 1308-11-30
+
+[era.enkyo]
+kanji = "延慶"
+english = "Enkyō"
+start = 1308-11-30
+end = 1311-05-25
+
+[era.ocho]
+kanji = "応長"
+english = "Ōchō"
+start = 1311-05-25
+end = 1312-05-05
+
+[era.showa]
+kanji = "正和"
+english = "Shōwa"
+start = 1312-05-05
+end = 1317-03-24
+
+[era.bunpo]
+kanji = "文保"
+english = "Bunpō"
+start = 1317-03-24
+end = 1319-05-26
+
+[era.genno]
+kanji = "元応"
+english = "Gen'ō"
+start = 1319-05-26
+end = 1321-03-30
+
+[era.genko]
+kanji = "元亨"
+english = "Genkō"
+start = 1321-03-30
+end = 1325-01-02
+
+[era.shochu]
+kanji = "正中"
+english = "Shōchū"
+start = 1325-01-02
+end = 1326-06-05
+
+[era.karyaku]
+kanji = "嘉暦"
+english = "Karyaku"
+start = 1326-06-05
+end = 1329-09-30

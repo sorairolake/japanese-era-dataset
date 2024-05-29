@@ -1,0 +1,213 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[era.genna]
+kanji = "元和"
+english = "Genna"
+start = 1615-09-05
+end = 1624-04-17
+
+[era.kannei]
+kanji = "寛永"
+english = "Kan'ei"
+start = 1624-04-17
+end = 1645-01-13
+
+[era.shoho]
+kanji = "正保"
+english = "Shōhō"
+start = 1645-01-13
+end = 1648-04-07
+
+[era.keian]
+kanji = "慶安"
+english = "Keian"
+start = 1648-04-07
+end = 1652-10-20
+
+[era.joo]
+kanji = "承応"
+english = "Jōō"
+start = 1652-10-20
+end = 1655-05-18
+
+[era.meireki]
+kanji = "明暦"
+english = "Meireki"
+start = 1655-05-18
+end = 1658-08-21
+
+[era.manji]
+kanji = "万治"
+english = "Manji"
+start = 1658-08-21
+end = 1661-05-23
+
+[era.kanbun]
+kanji = "寛文"
+english = "Kanbun"
+start = 1661-05-23
+end = 1673-10-30
+
+[era.enpo]
+kanji = "延宝"
+english = "Enpō"
+start = 1673-10-30
+end = 1681-11-09
+
+[era.tenna]
+kanji = "天和"
+english = "Tenna"
+start = 1681-11-09
+end = 1684-04-05
+
+[era.jokyo]
+kanji = "貞享"
+english = "Jōkyō"
+start = 1684-04-05
+end = 1688-10-23
+
+[era.genroku]
+kanji = "元禄"
+english = "Genroku"
+start = 1688-10-23
+end = 1704-04-16
+
+[era.hoei]
+kanji = "宝永"
+english = "Hōei"
+start = 1704-04-16
+end = 1711-06-11
+
+[era.shotoku]
+kanji = "正徳"
+english = "Shōtoku"
+start = 1711-06-11
+end = 1716-08-09
+
+[era.kyoho]
+kanji = "享保"
+english = "Kyōhō"
+start = 1716-08-09
+end = 1736-06-07
+
+[era.genbun]
+kanji = "元文"
+english = "Genbun"
+start = 1736-06-07
+end = 1741-04-12
+
+[era.kanpo]
+kanji = "寛保"
+english = "Kanpō"
+start = 1741-04-12
+end = 1744-04-03
+
+[era.enkyo]
+kanji = "延享"
+english = "Enkyō"
+start = 1744-04-03
+end = 1748-08-05
+
+[era.kannen]
+kanji = "寛延"
+english = "Kan'en"
+start = 1748-08-05
+end = 1751-12-14
+
+[era.horeki]
+kanji = "宝暦"
+english = "Hōreki"
+start = 1751-12-14
+end = 1764-06-30
+
+[era.meiwa]
+kanji = "明和"
+english = "Meiwa"
+start = 1764-06-30
+end = 1772-12-10
+
+[era.annei]
+kanji = "安永"
+english = "An'ei"
+start = 1772-12-10
+end = 1781-04-25
+
+[era.tenmei]
+kanji = "天明"
+english = "Tenmei"
+start = 1781-04-25
+end = 1789-02-19
+
+[era.kansei]
+kanji = "寛政"
+english = "Kansei"
+start = 1789-02-19
+end = 1801-03-19
+
+[era.kyowa]
+kanji = "享和"
+english = "Kyōwa"
+start = 1801-03-19
+end = 1804-03-22
+
+[era.bunka]
+kanji = "文化"
+english = "Bunka"
+start = 1804-03-22
+end = 1818-05-26
+
+[era.bunsei]
+kanji = "文政"
+english = "Bunsei"
+start = 1818-05-26
+end = 1831-01-23
+
+[era.tenpo]
+kanji = "天保"
+english = "Tenpō"
+start = 1831-01-23
+end = 1845-01-09
+
+[era.koka]
+kanji = "弘化"
+english = "Kōka"
+start = 1845-01-09
+end = 1848-04-01
+
+[era.kaei]
+kanji = "嘉永"
+english = "Kaei"
+start = 1848-04-01
+end = 1855-01-15
+
+[era.ansei]
+kanji = "安政"
+english = "Ansei"
+start = 1855-01-15
+end = 1860-04-08
+
+[era.mannen]
+kanji = "万延"
+english = "Man'en"
+start = 1860-04-08
+end = 1861-03-29
+
+[era.bunkyu]
+kanji = "文久"
+english = "Bunkyū"
+start = 1861-03-29
+end = 1864-03-27
+
+[era.genji]
+kanji = "元治"
+english = "Genji"
+start = 1864-03-27
+end = 1865-05-01
+
+[era.keio]
+kanji = "慶応"
+english = "Keiō"
+start = 1865-05-01
+end = 1868-10-23

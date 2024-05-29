@@ -1,0 +1,531 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[era.daido]
+kanji = "大同"
+english = "Daidō"
+start = 0806-06-12
+end = 0810-10-24
+
+[era.konin]
+kanji = "弘仁"
+english = "Kōnin"
+start = 0810-10-24
+end = 0824-02-12
+
+[era.tencho]
+kanji = "天長"
+english = "Tenchō"
+start = 0824-02-12
+end = 0834-02-18
+
+[era.jowa]
+kanji = "承和"
+english = "Jōwa"
+start = 0834-02-18
+end = 0848-07-20
+
+[era.kasho]
+kanji = "嘉祥"
+english = "Kashō"
+start = 0848-07-20
+end = 0851-06-05
+
+[era.ninju]
+kanji = "仁寿"
+english = "Ninju"
+start = 0851-06-05
+end = 0854-12-27
+
+[era.saiko]
+kanji = "斉衡"
+english = "Saikō"
+start = 0854-12-27
+end = 0857-03-24
+
+[era.tennan]
+kanji = "天安"
+english = "Ten'an"
+start = 0857-03-24
+end = 0859-05-24
+
+[era.jogan]
+kanji = "貞観"
+english = "Jōgan"
+start = 0859-05-24
+end = 0877-06-05
+
+[era.gangyo]
+kanji = "元慶"
+english = "Gangyō"
+start = 0877-06-05
+end = 0885-03-15
+
+[era.ninna]
+kanji = "仁和"
+english = "Ninna"
+start = 0885-03-15
+end = 0889-06-03
+
+[era.kanpyo]
+kanji = "寛平"
+english = "Kanpyō"
+start = 0889-06-03
+end = 0898-05-24
+
+[era.shotai]
+kanji = "昌泰"
+english = "Shōtai"
+start = 0898-05-24
+end = 0901-09-05
+
+[era.engi]
+kanji = "延喜"
+english = "Engi"
+start = 0901-09-05
+end = 0923-06-03
+
+[era.encho]
+kanji = "延長"
+english = "Enchō"
+start = 0923-06-03
+end = 0931-05-21
+
+[era.johei]
+kanji = "承平"
+english = "Jōhei"
+start = 0931-05-21
+end = 0938-06-27
+
+[era.tengyo]
+kanji = "天慶"
+english = "Tengyō"
+start = 0938-06-27
+end = 0947-05-20
+
+[era.tenryaku]
+kanji = "天暦"
+english = "Tenryaku"
+start = 0947-05-20
+end = 0957-11-26
+
+[era.tentoku]
+kanji = "天徳"
+english = "Tentoku"
+start = 0957-11-26
+end = 0961-03-10
+
+[era.owa]
+kanji = "応和"
+english = "Ōwa"
+start = 0961-03-10
+end = 0964-08-24
+
+[era.koho]
+kanji = "康保"
+english = "Kōhō"
+start = 0964-08-24
+end = 0968-09-13
+
+[era.anna]
+kanji = "安和"
+english = "Anna"
+start = 0968-09-13
+end = 0970-05-08
+
+[era.tenroku]
+kanji = "天禄"
+english = "Tenroku"
+start = 0970-05-08
+end = 0974-01-21
+
+[era.tennen]
+kanji = "天延"
+english = "Ten'en"
+start = 0974-01-21
+end = 0976-08-16
+
+[era.jogen]
+kanji = "貞元"
+english = "Jōgen"
+start = 0976-08-16
+end = 0979-01-05
+
+[era.tengen]
+kanji = "天元"
+english = "Tengen"
+start = 0979-01-05
+end = 0983-06-03
+
+[era.eikan]
+kanji = "永観"
+english = "Eikan"
+start = 0983-06-03
+end = 0985-05-24
+
+[era.kanna]
+kanji = "寛和"
+english = "Kanna"
+start = 0985-05-24
+end = 0987-05-10
+
+[era.eien]
+kanji = "永延"
+english = "Eien"
+start = 0987-05-10
+end = 0989-09-15
+
+[era.eiso]
+kanji = "永祚"
+english = "Eiso"
+start = 0989-09-15
+end = 0990-12-01
+
+[era.shoryaku]
+kanji = "正暦"
+english = "Shōryaku"
+start = 0990-12-01
+end = 0995-03-30
+
+[era.chotoku]
+kanji = "長徳"
+english = "Chōtoku"
+start = 0995-03-30
+end = 0999-02-06
+
+[era.choho]
+kanji = "長保"
+english = "Chōhō"
+start = 0999-02-06
+end = 1004-08-14
+
+[era.kanko]
+kanji = "寛弘"
+english = "Kankō"
+start = 1004-08-14
+end = 1013-02-14
+
+[era.chowa]
+kanji = "長和"
+english = "Chōwa"
+start = 1013-02-14
+end = 1017-05-27
+
+[era.kannin]
+kanji = "寛仁"
+english = "Kannin"
+start = 1017-05-27
+end = 1021-03-23
+
+[era.jian]
+kanji = "治安"
+english = "Jian"
+start = 1021-03-23
+end = 1024-08-25
+
+[era.manju]
+kanji = "万寿"
+english = "Manju"
+start = 1024-08-25
+end = 1028-08-24
+
+[era.chogen]
+kanji = "長元"
+english = "Chōgen"
+start = 1028-08-24
+end = 1037-05-15
+
+[era.choryaku]
+kanji = "長暦"
+english = "Chōryaku"
+start = 1037-05-15
+end = 1040-12-22
+
+[era.chokyu]
+kanji = "長久"
+english = "Chōkyū"
+start = 1040-12-22
+end = 1044-12-22
+
+[era.kantoku]
+kanji = "寛徳"
+english = "Kantoku"
+start = 1044-12-22
+end = 1046-05-28
+
+[era.eisho]
+kanji = "永承"
+english = "Eishō"
+start = 1046-05-28
+end = 1053-02-08
+
+[era.tengi]
+kanji = "天喜"
+english = "Tengi"
+start = 1053-02-08
+end = 1058-09-25
+
+[era.kohei]
+kanji = "康平"
+english = "Kōhei"
+start = 1058-09-25
+end = 1065-09-10
+
+[era.jiryaku]
+kanji = "治暦"
+english = "Jiryaku"
+start = 1065-09-10
+end = 1069-05-12
+
+[era.enkyu]
+kanji = "延久"
+english = "Enkyū"
+start = 1069-05-12
+end = 1074-09-22
+
+[era.joho]
+kanji = "承保"
+english = "Jōhō"
+start = 1074-09-22
+end = 1077-12-11
+
+[era.joryaku]
+kanji = "承暦"
+english = "Jōryaku"
+start = 1077-12-11
+end = 1081-03-28
+
+[era.eiho]
+kanji = "永保"
+english = "Eihō"
+start = 1081-03-28
+end = 1084-03-21
+
+[era.otoku]
+kanji = "応徳"
+english = "Ōtoku"
+start = 1084-03-21
+end = 1087-05-17
+
+[era.kanji]
+kanji = "寛治"
+english = "Kanji"
+start = 1087-05-17
+end = 1095-01-29
+
+[era.kaho]
+kanji = "嘉保"
+english = "Kahō"
+start = 1095-01-29
+end = 1097-01-09
+
+[era.eicho]
+kanji = "永長"
+english = "Eichō"
+start = 1097-01-09
+end = 1098-01-02
+
+[era.jotoku]
+kanji = "承徳"
+english = "Jōtoku"
+start = 1098-01-02
+end = 1099-09-21
+
+[era.kowa]
+kanji = "康和"
+english = "Kōwa"
+start = 1099-09-21
+end = 1104-03-15
+
+[era.choji]
+kanji = "長治"
+english = "Chōji"
+start = 1104-03-15
+end = 1106-05-20
+
+[era.kajo]
+kanji = "嘉承"
+english = "Kajō"
+start = 1106-05-20
+end = 1108-09-16
+
+[era.tennin]
+kanji = "天仁"
+english = "Tennin"
+start = 1108-09-16
+end = 1110-08-07
+
+[era.tennei]
+kanji = "天永"
+english = "Ten'ei"
+start = 1110-08-07
+end = 1113-09-01
+
+[era.eikyu]
+kanji = "永久"
+english = "Eikyū"
+start = 1113-09-01
+end = 1118-05-02
+
+[era.gennei]
+kanji = "元永"
+english = "Gen'ei"
+start = 1118-05-02
+end = 1120-05-16
+
+[era.hoan]
+kanji = "保安"
+english = "Hōan"
+start = 1120-05-16
+end = 1124-05-25
+
+[era.tenji]
+kanji = "天治"
+english = "Tenji"
+start = 1124-05-25
+end = 1126-02-22
+
+[era.daiji]
+kanji = "大治"
+english = "Daiji"
+start = 1126-02-22
+end = 1131-03-07
+
+[era.tensho]
+kanji = "天承"
+english = "Tenshō"
+start = 1131-03-07
+end = 1132-09-28
+
+[era.chosho]
+kanji = "長承"
+english = "Chōshō"
+start = 1132-09-28
+end = 1135-06-17
+
+[era.hoen]
+kanji = "保延"
+english = "Hōen"
+start = 1135-06-17
+end = 1141-08-20
+
+[era.eiji]
+kanji = "永治"
+english = "Eiji"
+start = 1141-08-20
+end = 1142-06-01
+
+[era.koji]
+kanji = "康治"
+english = "Kōji"
+start = 1142-06-01
+end = 1144-04-04
+
+[era.tennyo]
+kanji = "天養"
+english = "Ten'yō"
+start = 1144-04-04
+end = 1145-08-19
+
+[era.kyuan]
+kanji = "久安"
+english = "Kyūan"
+start = 1145-08-19
+end = 1151-02-21
+
+[era.ninpei]
+kanji = "仁平"
+english = "Ninpei"
+start = 1151-02-21
+end = 1154-12-11
+
+[era.kyuju]
+kanji = "久寿"
+english = "Kyūju"
+start = 1154-12-11
+end = 1156-05-25
+
+[era.hogen]
+kanji = "保元"
+english = "Hōgen"
+start = 1156-05-25
+end = 1159-05-16
+
+[era.heiji]
+kanji = "平治"
+english = "Heiji"
+start = 1159-05-16
+end = 1160-02-25
+
+[era.eiryaku]
+kanji = "永暦"
+english = "Eiryaku"
+start = 1160-02-25
+end = 1161-10-01
+
+[era.oho]
+kanji = "応保"
+english = "Ōhō"
+start = 1161-10-01
+end = 1163-05-11
+
+[era.chokan]
+kanji = "長寛"
+english = "Chōkan"
+start = 1163-05-11
+end = 1165-07-21
+
+[era.eiman]
+kanji = "永万"
+english = "Eiman"
+start = 1165-07-21
+end = 1166-09-30
+
+[era.ninnan]
+kanji = "仁安"
+english = "Nin'an"
+start = 1166-09-30
+end = 1169-05-13
+
+[era.kao]
+kanji = "嘉応"
+english = "Kaō"
+start = 1169-05-13
+end = 1171-06-03
+
+[era.joan]
+kanji = "承安"
+english = "Jōan"
+start = 1171-06-03
+end = 1175-08-23
+
+[era.angen]
+kanji = "安元"
+english = "Angen"
+start = 1175-08-23
+end = 1177-09-05
+
+[era.jisho]
+kanji = "治承"
+english = "Jishō"
+start = 1177-09-05
+end = 1181-09-01
+
+[era.yowa]
+kanji = "養和"
+english = "Yōwa"
+start = 1181-09-01
+end = 1182-07-06
+
+[era.juei]
+kanji = "寿永"
+english = "Juei"
+start = 1182-07-06
+end = 1184-06-03
+
+[era.genryaku]
+kanji = "元暦"
+english = "Genryaku"
+start = 1184-06-03
+end = 1185-09-16
