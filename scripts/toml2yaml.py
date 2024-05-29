@@ -23,4 +23,4 @@ for toml_file in TOML_DIR.iterdir():
 
     yaml_file = YAML_DIR / (toml_file.stem + ".yaml")
     with yaml_file.open("w") as f:
-        yaml.dump(data, f, sort_keys=False, allow_unicode=True)
+        yaml.dump(data, f, allow_unicode=True)
