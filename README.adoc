@@ -14,10 +14,12 @@
 :toml-dir: {assets-dir}/toml
 :pyyaml-url: {github-url}/yaml/pyyaml
 :jawp-url: https://ja.wikipedia.org
-:jawp-article-url: {enwp-url}/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_(%E6%97%A5%E6%9C%AC)
+:jawp-article-url: {jawp-url}/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_(%E6%97%A5%E6%9C%AC)
 :reuse-spec-url: https://reuse.software/spec/
 
-image:{ci-badge}[CI,link={ci-url}]
+// image:{ci-badge}[CI,link={ci-url}]
+
+link:README.ja.adoc[日本語]
 
 This repository contains TOML files representing the
 {enwp-article-url}[Japanese era].
@@ -56,44 +58,44 @@ end = 2019-05-01
 === Directory structure
 
 .The TOML files representing the eras are as follows:
-{toml-dir}/asuka.toml[]::
+link:{toml-dir}/asuka.toml[]::
 
   It contains the eras in the Asuka period (from _Taika_ to _Wadō_).
 
-{toml-dir}/nara.toml[]::
+link:{toml-dir}/nara.toml[]::
 
   It contains the eras in the Nara period (from _Reiki_ to _Enryaku_).
 
-{toml-dir}/heian.toml[]::
+link:{toml-dir}/heian.toml[]::
 
   It contains the eras in the Heian period (from _Daidō_ to _Genryaku_).
 
-{toml-dir}/kamakura.toml[]::
+link:{toml-dir}/kamakura.toml[]::
 
   It contains the eras in the Kamakura period (from _Bunji_ to _Karyaku_).
 
-{toml-dir}/southern-court.toml[]::
+link:{toml-dir}/southern-court.toml[]::
 
   It contains the eras of the Southern Court (from _Gentoku_ to _Genchū_).
 
-{toml-dir}/northern-court.toml[]::
+link:{toml-dir}/northern-court.toml[]::
 
   It contains the eras of the Northern Court (from _Gentoku_ to _Meitoku_).
 
-{toml-dir}/muromachi.toml[]::
+link:{toml-dir}/muromachi.toml[]::
 
   It contains the eras in the Muromachi period (from _Ōei_ to _Genki_).
 
-{toml-dir}/azuchi-momoyama.toml[]::
+link:{toml-dir}/azuchi-momoyama.toml[]::
 
   It contains the eras in the Azuchi–Momoyama period (from _Tenshō_ to
   _Keichō_).
 
-{toml-dir}/edo.toml[]::
+link:{toml-dir}/edo.toml[]::
 
   It contains the eras in the Edo period (from _Genna_ to _Keiō_).
 
-{toml-dir}/modern.toml[]::
+link:{toml-dir}/modern.toml[]::
 
   It contains the eras of the modern era (after _Meiji_).
 

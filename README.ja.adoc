@@ -1,0 +1,138 @@
+// SPDX-FileCopyrightText: None
+//
+// SPDX-License-Identifier: CC0-1.0
+
+= 日本の元号のためのTOMLファイル
+:github-url: https://github.com
+:project-url: {github-url}/sorairolake/japanese-era-toml
+:shields-url: https://img.shields.io
+:ci-badge: {shields-url}/github/actions/workflow/status/sorairolake/japanese-era-toml/CI.yaml?branch=develop&style=for-the-badge&logo=github&label=CI
+:ci-url: {project-url}/actions?query=branch%3Adevelop+workflow%3ACI++
+:enwp-url: https://en.wikipedia.org
+:enwp-article-url: {enwp-url}/wiki/Japanese_era_name
+:assets-dir: assets
+:toml-dir: {assets-dir}/toml
+:pyyaml-url: {github-url}/yaml/pyyaml
+:jawp-url: https://ja.wikipedia.org
+:jawp-article-url: {jawp-url}/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_(%E6%97%A5%E6%9C%AC)
+:reuse-spec-url: https://reuse.software/spec/
+
+// image:{ci-badge}[CI,link={ci-url}]
+
+link:README.adoc[English]
+
+このリポジトリには、link:{jawp-article-url}[日本の元号]を表すTOMLファイルが含まれています。
+
+== 構造
+
+元号はテーブルによって表現されています。
+
+.例えば、平成を表すテーブルは次の通りです:
+[source,toml]
+----
+[era.heisei]
+kanji = "平成"
+english = "Heisei"
+start = 1989-01-08
+end = 2019-05-01
+----
+
+.キーと値のペアの意味は次の通りです:
+`kanji`::
+
+  漢字での元号名。
+
+`english`::
+
+  英語での元号名。
+
+`start`::
+
+  その元号が始まった日付。
+
+`end`::
+
+  その元号が終わった日付。現在の元号にはこのキーはありません。
+
+=== ディレクトリ構造
+
+.元号は以下のTOMLファイルによって表現されています:
+link:{toml-dir}/asuka.toml[]::
+
+  飛鳥時代の元号を含みます（大化から和銅まで）。
+
+link:{toml-dir}/nara.toml[]::
+
+  奈良時代の元号を含みます（霊亀から延暦まで）。
+
+link:{toml-dir}/heian.toml[]::
+
+  平安時代の元号を含みます（大同から元暦まで）。
+
+link:{toml-dir}/kamakura.toml[]::
+
+  鎌倉時代の元号を含みます（文治から嘉暦まで）。
+
+link:{toml-dir}/southern-court.toml[]::
+
+  南朝（大覚寺統）の元号を含みます（元徳から元中まで）。
+
+link:{toml-dir}/northern-court.toml[]::
+
+  北朝（持明院統）の元号を含みます（元徳から明徳まで）。
+
+link:{toml-dir}/muromachi.toml[]::
+
+  室町時代の元号を含みます（応永から元亀まで）。
+
+link:{toml-dir}/azuchi-momoyama.toml[]::
+
+  安土桃山時代の元号を含みます（天正から慶長まで）。
+
+link:{toml-dir}/edo.toml[]::
+
+  江戸時代の元号を含みます（元和から慶応まで）。
+
+link:{toml-dir}/modern.toml[]::
+
+  明治以降の元号を含みます。
+
+=== 他のフォーマットへの変換
+
+このプロジェクトにはTOMLファイルをJSONファイルやYAMLファイルに変換するためのPythonスクリプトが含まれています。
+
+NOTE: `end`キーが存在しない場合は、`null`が`end`キーの値として設定されます。
+
+IMPORTANT: これらのスクリプトにはPython 3.11+が必要です。
+
+.JSONファイルへ変換
+[source,sh]
+----
+./scripts/toml2json.py
+----
+
+JSONファイルは`{assets-dir}/json`ディレクトリに出力されます。
+
+.YAMLファイルへ変換
+[source,sh]
+----
+./scripts/toml2yaml.py
+----
+
+YAMLファイルは`{assets-dir}/yaml`ディレクトリに出力されます。
+
+IMPORTANT: YAMLファイルへ変換するにはlink:{pyyaml-url}[_PyYAML_]が必要です。
+
+== 謝辞
+
+.TOMLファイルは以下を参照して作成しました:
+* 日本語版ウィキペディアのlink:{jawp-article-url}[元号一覧 (日本)]（漢字での元号名）。
+* 英語版ウィキペディアのlink:{enwp-article-url}[Japanese era name]（英語での元号名）。
+* link:{github-url}/nagataaaas/Japanera[]（元号の開始日と終了日）。
+
+== ライセンス
+
+特に断りのない限り、このリポジトリの内容は__CC0 1.0 全世界__の条件の下で配布されています。
+
+このプロジェクトはlink:{reuse-spec-url}[_REUSE Specification_]のバージョン 3.0に準拠しています。
+著作権及びライセンスの詳細な情報については、個々のファイルの著作権表示を参照して下さい。
