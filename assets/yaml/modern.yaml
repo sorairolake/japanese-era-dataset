@@ -8,7 +8,7 @@ era:
   meiji:
     number: 228
     kanji: 明治
-    kyujitai: 明󠄁治
+    kyujitai: "明\U000E0101治"
     english: Meiji
     start: 1868-01-23
     end: 1912-07-30

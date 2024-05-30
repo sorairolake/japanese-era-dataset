@@ -20,4 +20,4 @@ for yaml_file in YAML_DIR.iterdir():
 
     json_file = JSON_DIR / (yaml_file.stem + ".json")
     with json_file.open("w") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2, default=str)
+        json.dump(data, f, indent=2, default=str)

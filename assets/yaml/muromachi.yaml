@@ -40,7 +40,7 @@ era:
   bunnan:
     number: 170
     kanji: 文安
-    kyujitai: 文󠄁安
+    kyujitai: "文\U000E0101安"
     english: Bun'an
     start: 1444-03-03
     end: 1449-08-25
@@ -80,7 +80,7 @@ era:
   kansho:
     number: 175
     kanji: 寛正
-    kyujitai: 寛󠄁正
+    kyujitai: "寛\U000E0101正"
     english: Kanshō
     start: 1461-02-10
     end: 1466-03-23
@@ -88,7 +88,7 @@ era:
   bunsho:
     number: 176
     kanji: 文正
-    kyujitai: 文󠄁正
+    kyujitai: "文\U000E0101正"
     english: Bunshō
     start: 1466-03-23
     end: 1467-04-18
@@ -104,7 +104,7 @@ era:
   bunmei:
     number: 178
     kanji: 文明
-    kyujitai: 文󠄁明󠄁
+    kyujitai: "文\U000E0101明\U000E0101"
     english: Bunmei
     start: 1469-06-17
     end: 1487-08-18
@@ -120,7 +120,7 @@ era:
   entoku:
     number: 180
     kanji: 延徳
-    kyujitai: 延󠄂德
+    kyujitai: "延\U000E0102德"
     english: Entoku
     start: 1489-09-25
     end: 1492-08-21
@@ -128,7 +128,7 @@ era:
   meio:
     number: 181
     kanji: 明応
-    kyujitai: 明󠄁應
+    kyujitai: "明\U000E0101應"
     english: Meiō
     start: 1492-08-21
     end: 1501-03-28
@@ -136,7 +136,7 @@ era:
   bunki:
     number: 182
     kanji: 文亀
-    kyujitai: 文󠄁龜
+    kyujitai: "文\U000E0101龜"
     english: Bunki
     start: 1501-03-28
     end: 1504-03-26
@@ -168,7 +168,7 @@ era:
   tenbun:
     number: 186
     kanji: 天文
-    kyujitai: 天文󠄁
+    kyujitai: "天文\U000E0101"
     english: Tenbun
     start: 1532-09-08
     end: 1555-11-17

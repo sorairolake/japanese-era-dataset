@@ -40,7 +40,7 @@ era:
   kasho:
     number: 23
     kanji: 嘉祥
-    kyujitai: 嘉祥󠄀
+    kyujitai: "嘉祥\U000E0100"
     english: Kashō
     start: 0848-07-20
     end: 0851-06-05
@@ -96,7 +96,7 @@ era:
   kanpyo:
     number: 30
     kanji: 寛平
-    kyujitai: 寛󠄁平󠄁
+    kyujitai: "寛\U000E0101平\U000E0101"
     english: Kanpyō
     start: 0889-06-03
     end: 0898-05-24
@@ -112,7 +112,7 @@ era:
   engi:
     number: 32
     kanji: 延喜
-    kyujitai: 延󠄂喜
+    kyujitai: "延\U000E0102喜"
     english: Engi
     start: 0901-09-05
     end: 0923-06-03
@@ -120,7 +120,7 @@ era:
   encho:
     number: 33
     kanji: 延長
-    kyujitai: 延󠄂長
+    kyujitai: "延\U000E0102長"
     english: Enchō
     start: 0923-06-03
     end: 0931-05-21
@@ -128,7 +128,7 @@ era:
   johei:
     number: 34
     kanji: 承平
-    kyujitai: 承平󠄁
+    kyujitai: "承平\U000E0101"
     english: Jōhei
     start: 0931-05-21
     end: 0938-06-27
@@ -192,7 +192,7 @@ era:
   tennen:
     number: 42
     kanji: 天延
-    kyujitai: 天延󠄂
+    kyujitai: "天延\U000E0102"
     english: Ten'en
     start: 0974-01-21
     end: 0976-08-16
@@ -224,7 +224,7 @@ era:
   kanna:
     number: 46
     kanji: 寛和
-    kyujitai: 寛󠄁和
+    kyujitai: "寛\U000E0101和"
     english: Kanna
     start: 0985-05-24
     end: 0987-05-10
@@ -232,7 +232,7 @@ era:
   eien:
     number: 47
     kanji: 永延
-    kyujitai: 永延󠄂
+    kyujitai: "永延\U000E0102"
     english: Eien
     start: 0987-05-10
     end: 0989-09-15
@@ -272,7 +272,7 @@ era:
   kanko:
     number: 52
     kanji: 寛弘
-    kyujitai: 寛󠄁弘
+    kyujitai: "寛\U000E0101弘"
     english: Kankō
     start: 1004-08-14
     end: 1013-02-14
@@ -288,7 +288,7 @@ era:
   kannin:
     number: 54
     kanji: 寛仁
-    kyujitai: 寛󠄁仁
+    kyujitai: "寛\U000E0101仁"
     english: Kannin
     start: 1017-05-27
     end: 1021-03-23
@@ -336,7 +336,7 @@ era:
   kantoku:
     number: 60
     kanji: 寛徳
-    kyujitai: 寛󠄁德
+    kyujitai: "寛\U000E0101德"
     english: Kantoku
     start: 1044-12-22
     end: 1046-05-28
@@ -360,7 +360,7 @@ era:
   kohei:
     number: 63
     kanji: 康平
-    kyujitai: 康平󠄁
+    kyujitai: "康平\U000E0101"
     english: Kōhei
     start: 1058-09-25
     end: 1065-09-10
@@ -376,7 +376,7 @@ era:
   enkyu:
     number: 65
     kanji: 延久
-    kyujitai: 延󠄂久
+    kyujitai: "延\U000E0102久"
     english: Enkyū
     start: 1069-05-12
     end: 1074-09-22
@@ -416,7 +416,7 @@ era:
   kanji:
     number: 70
     kanji: 寛治
-    kyujitai: 寛󠄁治
+    kyujitai: "寛\U000E0101治"
     english: Kanji
     start: 1087-05-17
     end: 1095-01-29
@@ -544,7 +544,7 @@ era:
   hoen:
     number: 86
     kanji: 保延
-    kyujitai: 保延󠄂
+    kyujitai: "保延\U000E0102"
     english: Hōen
     start: 1135-06-17
     end: 1141-08-20
@@ -568,7 +568,7 @@ era:
   tennyo:
     number: 89
     kanji: 天養
-    kyujitai: 天養󠄁
+    kyujitai: "天養\U000E0101"
     english: Ten'yō
     start: 1144-04-04
     end: 1145-08-19
@@ -584,7 +584,7 @@ era:
   ninpei:
     number: 91
     kanji: 仁平
-    kyujitai: 仁平󠄁
+    kyujitai: "仁平\U000E0101"
     english: Ninpei
     start: 1151-02-21
     end: 1154-12-11
@@ -608,7 +608,7 @@ era:
   heiji:
     number: 94
     kanji: 平治
-    kyujitai: 平󠄁治
+    kyujitai: "平\U000E0101治"
     english: Heiji
     start: 1159-05-16
     end: 1160-02-25
@@ -632,7 +632,7 @@ era:
   chokan:
     number: 97
     kanji: 長寛
-    kyujitai: 長寛󠄁
+    kyujitai: "長寛\U000E0101"
     english: Chōkan
     start: 1163-05-11
     end: 1165-07-21
@@ -688,7 +688,7 @@ era:
   yowa:
     number: 104
     kanji: 養和
-    kyujitai: 養󠄁和
+    kyujitai: "養\U000E0101和"
     english: Yōwa
     start: 1181-09-01
     end: 1182-07-06

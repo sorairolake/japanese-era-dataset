@@ -16,7 +16,7 @@ era:
   bunroku:
     number: 191
     kanji: 文禄
-    kyujitai: 文󠄁祿
+    kyujitai: "文\U000E0101祿"
     english: Bunroku
     start: 1593-01-10
     end: 1596-12-16

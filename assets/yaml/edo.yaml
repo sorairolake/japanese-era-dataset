@@ -16,7 +16,7 @@ era:
   kannei:
     number: 194
     kanji: 寛永
-    kyujitai: 寛󠄁永
+    kyujitai: "寛\U000E0101永"
     english: Kan'ei
     start: 1624-04-17
     end: 1645-01-13
@@ -48,7 +48,7 @@ era:
   meireki:
     number: 198
     kanji: 明暦
-    kyujitai: 明󠄁曆
+    kyujitai: "明\U000E0101曆"
     english: Meireki
     start: 1655-05-18
     end: 1658-08-21
@@ -64,7 +64,7 @@ era:
   kanbun:
     number: 200
     kanji: 寛文
-    kyujitai: 寛󠄁文󠄁
+    kyujitai: "寛\U000E0101文\U000E0101"
     english: Kanbun
     start: 1661-05-23
     end: 1673-10-30
@@ -72,7 +72,7 @@ era:
   enpo:
     number: 201
     kanji: 延宝
-    kyujitai: 延󠄂寶
+    kyujitai: "延\U000E0102寶"
     english: Enpō
     start: 1673-10-30
     end: 1681-11-09
@@ -128,7 +128,7 @@ era:
   genbun:
     number: 208
     kanji: 元文
-    kyujitai: 元文󠄁
+    kyujitai: "元文\U000E0101"
     english: Genbun
     start: 1736-06-07
     end: 1741-04-12
@@ -136,7 +136,7 @@ era:
   kanpo:
     number: 209
     kanji: 寛保
-    kyujitai: 寛󠄁保
+    kyujitai: "寛\U000E0101保"
     english: Kanpō
     start: 1741-04-12
     end: 1744-04-03
@@ -144,7 +144,7 @@ era:
   enkyo:
     number: 210
     kanji: 延享
-    kyujitai: 延󠄂享
+    kyujitai: "延\U000E0102享"
     english: Enkyō
     start: 1744-04-03
     end: 1748-08-05
@@ -152,7 +152,7 @@ era:
   kannen:
     number: 211
     kanji: 寛延
-    kyujitai: 寛󠄁延󠄂
+    kyujitai: "寛\U000E0101延\U000E0102"
     english: Kan'en
     start: 1748-08-05
     end: 1751-12-14
@@ -168,7 +168,7 @@ era:
   meiwa:
     number: 213
     kanji: 明和
-    kyujitai: 明󠄁和
+    kyujitai: "明\U000E0101和"
     english: Meiwa
     start: 1764-06-30
     end: 1772-12-10
@@ -184,7 +184,7 @@ era:
   tenmei:
     number: 215
     kanji: 天明
-    kyujitai: 天明󠄁
+    kyujitai: "天明\U000E0101"
     english: Tenmei
     start: 1781-04-25
     end: 1789-02-19
@@ -192,7 +192,7 @@ era:
   kansei:
     number: 216
     kanji: 寛政
-    kyujitai: 寛󠄁政
+    kyujitai: "寛\U000E0101政"
     english: Kansei
     start: 1789-02-19
     end: 1801-03-19
@@ -208,7 +208,7 @@ era:
   bunka:
     number: 218
     kanji: 文化
-    kyujitai: 文󠄁化󠄁
+    kyujitai: "文\U000E0101化\U000E0101"
     english: Bunka
     start: 1804-03-22
     end: 1818-05-26
@@ -216,7 +216,7 @@ era:
   bunsei:
     number: 219
     kanji: 文政
-    kyujitai: 文󠄁政
+    kyujitai: "文\U000E0101政"
     english: Bunsei
     start: 1818-05-26
     end: 1831-01-23
@@ -232,7 +232,7 @@ era:
   koka:
     number: 221
     kanji: 弘化
-    kyujitai: 弘化󠄁
+    kyujitai: "弘化\U000E0101"
     english: Kōka
     start: 1845-01-09
     end: 1848-04-01
@@ -256,7 +256,7 @@ era:
   mannen:
     number: 224
     kanji: 万延
-    kyujitai: 萬延󠄂
+    kyujitai: "萬延\U000E0102"
     english: Man'en
     start: 1860-04-08
     end: 1861-03-29
@@ -264,7 +264,7 @@ era:
   bunkyu:
     number: 225
     kanji: 文久
-    kyujitai: 文󠄁久
+    kyujitai: "文\U000E0101久"
     english: Bunkyū
     start: 1861-03-29
     end: 1864-03-27

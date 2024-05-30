@@ -24,7 +24,7 @@ era:
   kenmu:
     northern-number: null
     kanji: 建武
-    kyujitai: 建󠄁武
+    kyujitai: "建\U000E0101武"
     english: Kenmu
     start: 1334-03-13
     end: 1338-10-19
@@ -64,7 +64,7 @@ era:
   bunna:
     northern-number: 6
     kanji: 文和
-    kyujitai: 文󠄁和
+    kyujitai: "文\U000E0101和"
     english: Bunna
     start: 1352-11-12
     end: 1356-05-07
@@ -72,7 +72,7 @@ era:
   enbun:
     northern-number: 7
     kanji: 延文
-    kyujitai: 延󠄂文󠄁
+    kyujitai: "延\U000E0102文\U000E0101"
     english: Enbun
     start: 1356-05-07
     end: 1361-05-12
@@ -152,7 +152,7 @@ era:
   meitoku:
     northern-number: 17
     kanji: 明徳
-    kyujitai: 明󠄁德
+    kyujitai: "明\U000E0101德"
     english: Meitoku
     start: 1390-04-20
     end: 1394-08-10

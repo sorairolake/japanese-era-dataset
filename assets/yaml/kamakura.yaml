@@ -8,7 +8,7 @@ era:
   bunji:
     number: 107
     kanji: 文治
-    kyujitai: 文󠄁治
+    kyujitai: "文\U000E0101治"
     english: Bunji
     start: 1185-09-16
     end: 1190-05-23
@@ -16,7 +16,7 @@ era:
   kenkyu:
     number: 108
     kanji: 建久
-    kyujitai: 建󠄁久
+    kyujitai: "建\U000E0101久"
     english: Kenkyū
     start: 1190-05-23
     end: 1199-05-30
@@ -32,7 +32,7 @@ era:
   kennin:
     number: 110
     kanji: 建仁
-    kyujitai: 建󠄁仁
+    kyujitai: "建\U000E0101仁"
     english: Kennin
     start: 1201-03-26
     end: 1204-03-30
@@ -48,7 +48,7 @@ era:
   kennei:
     number: 112
     kanji: 建永
-    kyujitai: 建󠄁永
+    kyujitai: "建\U000E0101永"
     english: Ken'ei
     start: 1206-06-12
     end: 1207-11-23
@@ -64,7 +64,7 @@ era:
   kenryaku:
     number: 114
     kanji: 建暦
-    kyujitai: 建󠄁曆
+    kyujitai: "建\U000E0101曆"
     english: Kenryaku
     start: 1211-04-30
     end: 1214-01-25
@@ -72,7 +72,7 @@ era:
   kempo:
     number: 115
     kanji: 建保
-    kyujitai: 建󠄁保
+    kyujitai: "建\U000E0101保"
     english: Kempo
     start: 1214-01-25
     end: 1219-06-03
@@ -120,7 +120,7 @@ era:
   kangi:
     number: 121
     kanji: 寛喜
-    kyujitai: 寛󠄁喜
+    kyujitai: "寛\U000E0101喜"
     english: Kangi
     start: 1229-04-07
     end: 1232-04-30
@@ -136,7 +136,7 @@ era:
   tenpuku:
     number: 123
     kanji: 天福
-    kyujitai: 天福󠄁
+    kyujitai: "天福\U000E0101"
     english: Tenpuku
     start: 1233-06-01
     end: 1234-12-04
@@ -144,7 +144,7 @@ era:
   bunryaku:
     number: 124
     kanji: 文暦
-    kyujitai: 文󠄁曆
+    kyujitai: "文\U000E0101曆"
     english: Bunryaku
     start: 1234-12-04
     end: 1235-11-08
@@ -152,7 +152,7 @@ era:
   katei:
     number: 125
     kanji: 嘉禎
-    kyujitai: 嘉禎󠄁
+    kyujitai: "嘉禎\U000E0101"
     english: Katei
     start: 1235-11-08
     end: 1239-01-06
@@ -168,7 +168,7 @@ era:
   enno:
     number: 127
     kanji: 延応
-    kyujitai: 延󠄂應
+    kyujitai: "延\U000E0102應"
     english: En'ō
     start: 1239-03-20
     end: 1240-08-12
@@ -184,7 +184,7 @@ era:
   kangen:
     number: 129
     kanji: 寛元
-    kyujitai: 寛󠄁元
+    kyujitai: "寛\U000E0101元"
     english: Kangen
     start: 1243-03-25
     end: 1247-04-12
@@ -200,7 +200,7 @@ era:
   kencho:
     number: 131
     kanji: 建長
-    kyujitai: 建󠄁長
+    kyujitai: "建\U000E0101長"
     english: Kenchō
     start: 1249-05-09
     end: 1256-10-31
@@ -232,7 +232,7 @@ era:
   bunno:
     number: 135
     kanji: 文応
-    kyujitai: 文󠄁應
+    kyujitai: "文\U000E0101應"
     english: Bun'ō
     start: 1260-05-31
     end: 1261-03-29
@@ -248,7 +248,7 @@ era:
   bunnei:
     number: 137
     kanji: 文永
-    kyujitai: 文󠄁永
+    kyujitai: "文\U000E0101永"
     english: Bun'ei
     start: 1264-04-03
     end: 1275-05-29
@@ -256,7 +256,7 @@ era:
   kenji:
     number: 138
     kanji: 建治
-    kyujitai: 建󠄁治
+    kyujitai: "建\U000E0101治"
     english: Kenji
     start: 1275-05-29
     end: 1278-03-30
@@ -320,7 +320,7 @@ era:
   enkyo:
     number: 146
     kanji: 延慶
-    kyujitai: 延󠄂慶
+    kyujitai: "延\U000E0102慶"
     english: Enkyō
     start: 1308-11-30
     end: 1311-05-25
@@ -344,7 +344,7 @@ era:
   bunpo:
     number: 149
     kanji: 文保
-    kyujitai: 文󠄁保
+    kyujitai: "文\U000E0101保"
     english: Bunpō
     start: 1317-03-24
     end: 1319-05-26

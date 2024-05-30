@@ -8,7 +8,7 @@ era:
   taika:
     number: 1
     kanji: 大化
-    kyujitai: 大化󠄁
+    kyujitai: "大化\U000E0101"
     english: Taika
     start: 0645-07-20
     end: 0650-03-25

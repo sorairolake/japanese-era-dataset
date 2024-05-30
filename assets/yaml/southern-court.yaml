@@ -27,7 +27,7 @@ era:
     number: 156
     southern-number: null
     kanji: 建武
-    kyujitai: 建󠄁武
+    kyujitai: "建\U000E0101武"
     english: Kenmu
     start: 1334-03-13
     end: 1336-04-19
@@ -36,7 +36,7 @@ era:
     number: 157
     southern-number: 2
     kanji: 延元
-    kyujitai: 延󠄂元
+    kyujitai: "延\U000E0102元"
     english: Engen
     start: 1336-04-19
     end: 1340-06-02
@@ -54,7 +54,7 @@ era:
     number: 159
     southern-number: 4
     kanji: 正平
-    kyujitai: 正平󠄁
+    kyujitai: "正平\U000E0101"
     english: Shōhei
     start: 1347-01-28
     end: 1370-08-24
@@ -63,7 +63,7 @@ era:
     number: 160
     southern-number: 5
     kanji: 建徳
-    kyujitai: 建󠄁德
+    kyujitai: "建\U000E0101德"
     english: Kentoku
     start: 1370-08-24
     end: 1372-05-09
@@ -72,7 +72,7 @@ era:
     number: 161
     southern-number: 6
     kanji: 文中
-    kyujitai: 文󠄁中
+    kyujitai: "文\U000E0101中"
     english: Bunchū
     start: 1372-05-09
     end: 1375-07-04
