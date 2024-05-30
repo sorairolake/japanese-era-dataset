@@ -11,37 +11,50 @@
 :enwp-url: https://en.wikipedia.org
 :enwp-article-url: {enwp-url}/wiki/Japanese_era_name
 :assets-dir: assets
-:toml-dir: {assets-dir}/toml
+:yaml-dir: {assets-dir}/yaml
 :pyyaml-url: {github-url}/yaml/pyyaml
+:tomli-w-url: {github-url}/hukkin/tomli-w
 :jawp-url: https://ja.wikipedia.org
 :jawp-article-url: {jawp-url}/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_(%E6%97%A5%E6%9C%AC)
 :reuse-spec-url: https://reuse.software/spec/
 
-// image:{ci-badge}[CI,link={ci-url}]
+image:{ci-badge}[CI,link={ci-url}]
 
 link:README.ja.adoc[日本語]
 
 This repository contains a dataset of the {enwp-article-url}[Japanese era] in
-TOML format.
+YAML format.
 
 == Structure
 
-The era is represented by the table.
+The era is represented by the associative array.
 
-.For example, the table representing the Heisei era is:
-[source,toml]
+.For example, the associative array representing the Heisei era is:
+[source,yaml]
 ----
-[era.heisei]
-kanji = "平成"
-english = "Heisei"
-start = 1989-01-08
-end = 2019-05-01
+era:
+  heisei:
+    number: 231
+    kanji: 平成
+    kyujitai: null
+    english: Heisei
+    start: 1989-01-08
+    end: 2019-05-01
 ----
 
 .The meanings of the key/value pairs are as follows:
+`number`::
+
+  The position of the era in the list of Japanese era names. `null` if not in
+  the list.
+
 `kanji`::
 
   The era name in kanji.
+
+`kyujitai`::
+
+  The era name in kyūjitai. `null` if same as `kanji`.
 
 `english`::
 
@@ -53,78 +66,89 @@ end = 2019-05-01
 
 `end`::
 
-  The end date of the era. This key doesn't exist in the current era.
+  The end date of the era. `null` for the current era.
+
+.The following keys exist in the Nanboku-chō period:
+`southern-number`::
+
+  The position of the era in the list of the Southern Court era names. This may
+  be `null`.
+
+`northern-number`::
+
+  The position of the era in the list of the Northern Court era names. This may
+  be `null`.
 
 === Directory structure
 
-.The TOML files representing the eras are as follows:
-link:{toml-dir}/asuka.toml[]::
+.The YAML files representing the eras are as follows:
+link:{yaml-dir}/asuka.yaml[]::
 
   It contains the eras in the Asuka period (from _Taika_ to _Wadō_).
 
-link:{toml-dir}/nara.toml[]::
+link:{yaml-dir}/nara.yaml[]::
 
   It contains the eras in the Nara period (from _Reiki_ to _Enryaku_).
 
-link:{toml-dir}/heian.toml[]::
+link:{yaml-dir}/heian.yaml[]::
 
   It contains the eras in the Heian period (from _Daidō_ to _Genryaku_).
 
-link:{toml-dir}/kamakura.toml[]::
+link:{yaml-dir}/kamakura.yaml[]::
 
   It contains the eras in the Kamakura period (from _Bunji_ to _Karyaku_).
 
-link:{toml-dir}/southern-court.toml[]::
+link:{yaml-dir}/southern-court.yaml[]::
 
   It contains the eras of the Southern Court (from _Gentoku_ to _Genchū_).
 
-link:{toml-dir}/northern-court.toml[]::
+link:{yaml-dir}/northern-court.yaml[]::
 
   It contains the eras of the Northern Court (from _Gentoku_ to _Meitoku_).
 
-link:{toml-dir}/muromachi.toml[]::
+link:{yaml-dir}/muromachi.yaml[]::
 
   It contains the eras in the Muromachi period (from _Ōei_ to _Genki_).
 
-link:{toml-dir}/azuchi-momoyama.toml[]::
+link:{yaml-dir}/azuchi-momoyama.yaml[]::
 
   It contains the eras in the Azuchi–Momoyama period (from _Tenshō_ to
   _Keichō_).
 
-link:{toml-dir}/edo.toml[]::
+link:{yaml-dir}/edo.yaml[]::
 
   It contains the eras in the Edo period (from _Genna_ to _Keiō_).
 
-link:{toml-dir}/modern.toml[]::
+link:{yaml-dir}/modern.yaml[]::
 
   It contains the eras of the modern era (after _Meiji_).
 
 === Convert to other formats
 
-This project contains Python scripts for converting TOML files to JSON files or
-YAML files.
+This project contains Python scripts for converting YAML files to JSON files or
+TOML files.
 
-NOTE: When the `end` key doesn't exist, `null` is set to it.
-
-IMPORTANT: These scripts require Python 3.11+.
+IMPORTANT: {pyyaml-url}[_PyYAML_] is required for conversion.
 
 .To convert to JSON files
 [source,sh]
 ----
-./scripts/toml2json.py
+./scripts/yaml2json.py
 ----
 
 This will output JSON files in the `{assets-dir}/json` directory.
 
-.To convert to YAML files
+.To convert to TOML files
 [source,sh]
 ----
-./scripts/toml2yaml.py
+./scripts/yaml2toml.py
 ----
 
-This will output YAML files in the `{assets-dir}/yaml` directory.
+This will output TOML files in the `{assets-dir}/toml` directory.
 
-IMPORTANT: {pyyaml-url}[_PyYAML_] is required to convert to YAML files.
+IMPORTANT: {tomli-w-url}[_Tomli-W_] is required for conversion.
+
+NOTE: Keys with `null` values ​​are removed.
 
 == Acknowledgment
 

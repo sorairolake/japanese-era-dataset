@@ -8,19 +8,16 @@ import json
 from pathlib import Path
 from typing import Final
 
-import tomllib
+import yaml
 
 ASSETS_DIR: Final[Path] = Path(__file__).resolve().parent.parent / "assets"
-TOML_DIR: Final[Path] = ASSETS_DIR / "toml"
+YAML_DIR: Final[Path] = ASSETS_DIR / "yaml"
 JSON_DIR: Final[Path] = ASSETS_DIR / "json"
 
-for toml_file in TOML_DIR.iterdir():
-    with toml_file.open("rb") as f:
-        data = tomllib.load(f)
+for yaml_file in YAML_DIR.iterdir():
+    with yaml_file.open("rb") as f:
+        data = yaml.safe_load(f)
 
-    for era in data["era"].values():
-        era.setdefault("end")
-
-    json_file = JSON_DIR / (toml_file.stem + ".json")
+    json_file = JSON_DIR / (yaml_file.stem + ".json")
     with json_file.open("w") as f:
         json.dump(data, f, ensure_ascii=False, indent=2, default=str)

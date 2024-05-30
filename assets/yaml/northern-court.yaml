@@ -1,0 +1,140 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+%YAML 1.2
+---
+era:
+  gentoku:
+    northern-number: null
+    kanji: 元徳
+    kyujitai: 元德
+    english: Gentoku
+    start: 1329-09-30
+    end: 1332-05-31
+  shokyo:
+    northern-number: 1
+    kanji: 正慶
+    kyujitai: null
+    english: Shōkyō
+    start: 1332-05-31
+    end: 1333-07-15
+  kenmu:
+    northern-number: null
+    kanji: 建武
+    kyujitai: 建󠄁武
+    english: Kenmu
+    start: 1334-03-13
+    end: 1338-10-19
+  ryakuo:
+    northern-number: 2
+    kanji: 暦応
+    kyujitai: 曆應
+    english: Ryakuō
+    start: 1338-10-19
+    end: 1342-06-09
+  koei:
+    northern-number: 3
+    kanji: 康永
+    kyujitai: null
+    english: Kōei
+    start: 1342-06-09
+    end: 1345-11-23
+  jowa:
+    northern-number: 4
+    kanji: 貞和
+    kyujitai: null
+    english: Jōwa
+    start: 1345-11-23
+    end: 1350-04-12
+  kanno:
+    northern-number: 5
+    kanji: 観応
+    kyujitai: 觀應
+    english: Kannō
+    start: 1350-04-12
+    end: 1352-11-12
+  bunna:
+    northern-number: 6
+    kanji: 文和
+    kyujitai: 文󠄁和
+    english: Bunna
+    start: 1352-11-12
+    end: 1356-05-07
+  enbun:
+    northern-number: 7
+    kanji: 延文
+    kyujitai: 延󠄂文󠄁
+    english: Enbun
+    start: 1356-05-07
+    end: 1361-05-12
+  koan:
+    northern-number: 8
+    kanji: 康安
+    kyujitai: null
+    english: Kōan
+    start: 1361-05-12
+    end: 1362-10-19
+  joji:
+    northern-number: 9
+    kanji: 貞治
+    kyujitai: null
+    english: Jōji
+    start: 1362-10-19
+    end: 1368-03-15
+  oan:
+    northern-number: 10
+    kanji: 応安
+    kyujitai: 應安
+    english: Ōan
+    start: 1368-03-15
+    end: 1375-04-06
+  eiwa:
+    northern-number: 11
+    kanji: 永和
+    kyujitai: null
+    english: Eiwa
+    start: 1375-04-06
+    end: 1379-04-17
+  koryaku:
+    northern-number: 12
+    kanji: 康暦
+    kyujitai: 康曆
+    english: Kōryaku
+    start: 1379-04-17
+    end: 1381-03-28
+  eitoku:
+    northern-number: 13
+    kanji: 永徳
+    kyujitai: 永德
+    english: Eitoku
+    start: 1381-03-28
+    end: 1384-03-27
+  shitoku:
+    northern-number: 14
+    kanji: 至徳
+    kyujitai: 至德
+    english: Shitoku
+    start: 1384-03-27
+    end: 1387-10-13
+  kakei:
+    northern-number: 15
+    kanji: 嘉慶
+    kyujitai: null
+    english: Kakei
+    start: 1387-10-13
+    end: 1389-03-15
+  koo:
+    northern-number: 16
+    kanji: 康応
+    kyujitai: 康應
+    english: Kōō
+    start: 1389-03-15
+    end: 1390-04-20
+  meitoku:
+    northern-number: 17
+    kanji: 明徳
+    kyujitai: 明󠄁德
+    english: Meitoku
+    start: 1390-04-20
+    end: 1394-08-10

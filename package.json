@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "japanese-era-dataset",
+  "version": "1.0.0",
+  "description": "Dataset of the Japanese era",
+  "license": "CC0-1.0",
+  "author": "Shun Sakai <sorairolake@protonmail.ch>",
+  "homepage": "https://github.com/sorairolake/japanese-era-dataset#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorairolake/japanese-era-dataset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sorairolake/japanese-era-dataset/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}

@@ -1,0 +1,28 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+%YAML 1.2
+---
+era:
+  tensho:
+    number: 190
+    kanji: 天正
+    kyujitai: null
+    english: Tenshō
+    start: 1573-09-04
+    end: 1593-01-10
+  bunroku:
+    number: 191
+    kanji: 文禄
+    kyujitai: 文󠄁祿
+    english: Bunroku
+    start: 1593-01-10
+    end: 1596-12-16
+  keicho:
+    number: 192
+    kanji: 慶長
+    kyujitai: null
+    english: Keichō
+    start: 1596-12-16
+    end: 1615-09-05

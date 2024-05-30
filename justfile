@@ -9,35 +9,50 @@ default: fmt
 
 # Run the formatter
 @fmt:
-    taplo format assets/toml/*.toml pyproject.toml
+    npx prettier -w assets/yaml/*.yaml
 
 # Run the linter
-@lint:
-    taplo lint assets/toml/*.toml pyproject.toml
+lint:
+    #!/usr/bin/env bash
+    source venv/bin/activate
+    yamllint -s assets/yaml/*.yaml
+
+# Configure a development environment for the Python scripts
+setup-python:
+    #!/usr/bin/env bash
+    python3 -m venv venv
+    source venv/bin/activate
+    pip3 install PyYAML ruff tomli-w yamllint
 
 # Run the formatter for the Python scripts
-@python-fmt:
+python-fmt:
+    #!/usr/bin/env bash
+    source venv/bin/activate
     ruff format .
 
 # Run the linter for the Python scripts
-@python-lint:
+python-lint:
+    #!/usr/bin/env bash
+    source venv/bin/activate
     ruff check .
 
 # Apply lint suggestions for the Python scripts
-@python-lint-fix:
+python-lint-fix:
+    #!/usr/bin/env bash
+    source venv/bin/activate
     ruff check --fix .
 
-# Run `mypy`
-@python-type-check:
-    mypy .
-
 # Generate the JSON files
-@generate-json:
-    python3 scripts/toml2json.py
+generate-json:
+    #!/usr/bin/env bash
+    source venv/bin/activate
+    python3 scripts/yaml2json.py
 
-# Generate the YAML files
-@generate-yaml:
-    python3 scripts/toml2yaml.py
+# Generate the TOML files
+generate-toml:
+    #!/usr/bin/env bash
+    source venv/bin/activate
+    python3 scripts/yaml2toml.py
 
 # Run the linter for GitHub Actions workflow files
 @lint-github-actions:

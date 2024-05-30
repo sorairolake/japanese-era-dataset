@@ -1,0 +1,252 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+%YAML 1.2
+---
+era:
+  genna:
+    number: 193
+    kanji: 元和
+    kyujitai: null
+    english: Genna
+    start: 1615-09-05
+    end: 1624-04-17
+  kannei:
+    number: 194
+    kanji: 寛永
+    kyujitai: 寛󠄁永
+    english: Kan'ei
+    start: 1624-04-17
+    end: 1645-01-13
+  shoho:
+    number: 195
+    kanji: 正保
+    kyujitai: null
+    english: Shōhō
+    start: 1645-01-13
+    end: 1648-04-07
+  keian:
+    number: 196
+    kanji: 慶安
+    kyujitai: null
+    english: Keian
+    start: 1648-04-07
+    end: 1652-10-20
+  joo:
+    number: 197
+    kanji: 承応
+    kyujitai: 承應
+    english: Jōō
+    start: 1652-10-20
+    end: 1655-05-18
+  meireki:
+    number: 198
+    kanji: 明暦
+    kyujitai: 明󠄁曆
+    english: Meireki
+    start: 1655-05-18
+    end: 1658-08-21
+  manji:
+    number: 199
+    kanji: 万治
+    kyujitai: 萬治
+    english: Manji
+    start: 1658-08-21
+    end: 1661-05-23
+  kanbun:
+    number: 200
+    kanji: 寛文
+    kyujitai: 寛󠄁文󠄁
+    english: Kanbun
+    start: 1661-05-23
+    end: 1673-10-30
+  enpo:
+    number: 201
+    kanji: 延宝
+    kyujitai: 延󠄂寶
+    english: Enpō
+    start: 1673-10-30
+    end: 1681-11-09
+  tenna:
+    number: 202
+    kanji: 天和
+    kyujitai: null
+    english: Tenna
+    start: 1681-11-09
+    end: 1684-04-05
+  jokyo:
+    number: 203
+    kanji: 貞享
+    kyujitai: null
+    english: Jōkyō
+    start: 1684-04-05
+    end: 1688-10-23
+  genroku:
+    number: 204
+    kanji: 元禄
+    kyujitai: 元祿
+    english: Genroku
+    start: 1688-10-23
+    end: 1704-04-16
+  hoei:
+    number: 205
+    kanji: 宝永
+    kyujitai: 寶永
+    english: Hōei
+    start: 1704-04-16
+    end: 1711-06-11
+  shotoku:
+    number: 206
+    kanji: 正徳
+    kyujitai: 正德
+    english: Shōtoku
+    start: 1711-06-11
+    end: 1716-08-09
+  kyoho:
+    number: 207
+    kanji: 享保
+    kyujitai: null
+    english: Kyōhō
+    start: 1716-08-09
+    end: 1736-06-07
+  genbun:
+    number: 208
+    kanji: 元文
+    kyujitai: 元文󠄁
+    english: Genbun
+    start: 1736-06-07
+    end: 1741-04-12
+  kanpo:
+    number: 209
+    kanji: 寛保
+    kyujitai: 寛󠄁保
+    english: Kanpō
+    start: 1741-04-12
+    end: 1744-04-03
+  enkyo:
+    number: 210
+    kanji: 延享
+    kyujitai: 延󠄂享
+    english: Enkyō
+    start: 1744-04-03
+    end: 1748-08-05
+  kannen:
+    number: 211
+    kanji: 寛延
+    kyujitai: 寛󠄁延󠄂
+    english: Kan'en
+    start: 1748-08-05
+    end: 1751-12-14
+  horeki:
+    number: 212
+    kanji: 宝暦
+    kyujitai: 寶曆
+    english: Hōreki
+    start: 1751-12-14
+    end: 1764-06-30
+  meiwa:
+    number: 213
+    kanji: 明和
+    kyujitai: 明󠄁和
+    english: Meiwa
+    start: 1764-06-30
+    end: 1772-12-10
+  annei:
+    number: 214
+    kanji: 安永
+    kyujitai: null
+    english: An'ei
+    start: 1772-12-10
+    end: 1781-04-25
+  tenmei:
+    number: 215
+    kanji: 天明
+    kyujitai: 天明󠄁
+    english: Tenmei
+    start: 1781-04-25
+    end: 1789-02-19
+  kansei:
+    number: 216
+    kanji: 寛政
+    kyujitai: 寛󠄁政
+    english: Kansei
+    start: 1789-02-19
+    end: 1801-03-19
+  kyowa:
+    number: 217
+    kanji: 享和
+    kyujitai: null
+    english: Kyōwa
+    start: 1801-03-19
+    end: 1804-03-22
+  bunka:
+    number: 218
+    kanji: 文化
+    kyujitai: 文󠄁化󠄁
+    english: Bunka
+    start: 1804-03-22
+    end: 1818-05-26
+  bunsei:
+    number: 219
+    kanji: 文政
+    kyujitai: 文󠄁政
+    english: Bunsei
+    start: 1818-05-26
+    end: 1831-01-23
+  tenpo:
+    number: 220
+    kanji: 天保
+    kyujitai: null
+    english: Tenpō
+    start: 1831-01-23
+    end: 1845-01-09
+  koka:
+    number: 221
+    kanji: 弘化
+    kyujitai: 弘化󠄁
+    english: Kōka
+    start: 1845-01-09
+    end: 1848-04-01
+  kaei:
+    number: 222
+    kanji: 嘉永
+    kyujitai: null
+    english: Kaei
+    start: 1848-04-01
+    end: 1855-01-15
+  ansei:
+    number: 223
+    kanji: 安政
+    kyujitai: null
+    english: Ansei
+    start: 1855-01-15
+    end: 1860-04-08
+  mannen:
+    number: 224
+    kanji: 万延
+    kyujitai: 萬延󠄂
+    english: Man'en
+    start: 1860-04-08
+    end: 1861-03-29
+  bunkyu:
+    number: 225
+    kanji: 文久
+    kyujitai: 文󠄁久
+    english: Bunkyū
+    start: 1861-03-29
+    end: 1864-03-27
+  genji:
+    number: 226
+    kanji: 元治
+    kyujitai: null
+    english: Genji
+    start: 1864-03-27
+    end: 1865-05-01
+  keio:
+    number: 227
+    kanji: 慶応
+    kyujitai: 慶應
+    english: Keiō
+    start: 1865-05-01
+    end: 1868-10-23

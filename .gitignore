@@ -4,4 +4,19 @@
 
 # Generated files
 assets/json/*.json
-assets/yaml/*.yaml
+assets/toml/*.toml
+
+# Node.js dependency directory
+node_modules/
+
+# Python
+
+## Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+## Environments
+.venv
+venv/
+venv.bak/

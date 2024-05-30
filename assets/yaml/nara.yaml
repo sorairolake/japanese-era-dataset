@@ -1,0 +1,91 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+%YAML 1.2
+---
+era:
+  reiki:
+    number: 7
+    kanji: 霊亀
+    kyujitai: 靈龜
+    english: Reiki
+    start: 0715-10-07
+    end: 0717-12-28
+  yoro:
+    number: 8
+    kanji: 養老
+    kyujitai: 養󠄁老
+    english: Yōrō
+    start: 0717-12-28
+    end: 0724-03-07
+  jinki:
+    number: 9
+    kanji: 神亀
+    kyujitai: 神󠄀龜
+    english: Jinki
+    start: 0724-03-07
+    end: 0729-09-06
+  tenpyo:
+    number: 10
+    kanji: 天平
+    kyujitai: 天平󠄁
+    english: Tenpyō
+    start: 0729-09-06
+    end: 0749-05-08
+  tenpyo-kanpo:
+    number: 11
+    kanji: 天平感宝
+    kyujitai: 天平󠄁感寶
+    english: Tenpyō-kanpō
+    start: 0749-05-08
+    end: 0749-08-23
+  tenpyo-shoho:
+    number: 12
+    kanji: 天平勝宝
+    kyujitai: 天平󠄁勝󠄁寶
+    english: Tenpyō-shōhō
+    start: 0749-08-23
+    end: 0757-09-10
+  tenpyo-hoji:
+    number: 13
+    kanji: 天平宝字
+    kyujitai: 天平󠄁寶字
+    english: Tenpyō-hōji
+    start: 0757-09-10
+    end: 0765-02-05
+  tenpyo-jingo:
+    number: 14
+    kanji: 天平神護
+    kyujitai: 天平󠄁神󠄀護
+    english: Tenpyō-jingo
+    start: 0765-02-05
+    end: 0767-09-17
+  jingo-keiun:
+    number: 15
+    kanji: 神護景雲
+    kyujitai: 神󠄀護景雲
+    english: Jingo-keiun
+    start: 0767-09-17
+    end: 0770-10-27
+  hoki:
+    number: 16
+    kanji: 宝亀
+    kyujitai: 寶龜
+    english: Hōki
+    start: 0770-10-27
+    end: 0781-02-03
+  tenno:
+    number: 17
+    kanji: 天応
+    kyujitai: 天應
+    english: Ten'ō
+    start: 0781-02-03
+    end: 0782-10-04
+  enryaku:
+    number: 18
+    kanji: 延暦
+    kyujitai: 延󠄂曆
+    english: Enryaku
+    start: 0782-10-04
+    end: 0806-06-12
