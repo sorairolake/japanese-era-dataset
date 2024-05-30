@@ -12,6 +12,7 @@ era:
     english: Tenshō
     start: 1573-09-04
     end: 1593-01-10
+
   bunroku:
     number: 191
     kanji: 文禄
@@ -19,6 +20,7 @@ era:
     english: Bunroku
     start: 1593-01-10
     end: 1596-12-16
+
   keicho:
     number: 192
     kanji: 慶長

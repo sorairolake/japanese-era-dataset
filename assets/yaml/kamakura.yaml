@@ -12,6 +12,7 @@ era:
     english: Bunji
     start: 1185-09-16
     end: 1190-05-23
+
   kenkyu:
     number: 108
     kanji: 建久
@@ -19,6 +20,7 @@ era:
     english: Kenkyū
     start: 1190-05-23
     end: 1199-05-30
+
   shoji:
     number: 109
     kanji: 正治
@@ -26,6 +28,7 @@ era:
     english: Shōji
     start: 1199-05-30
     end: 1201-03-26
+
   kennin:
     number: 110
     kanji: 建仁
@@ -33,6 +36,7 @@ era:
     english: Kennin
     start: 1201-03-26
     end: 1204-03-30
+
   genkyu:
     number: 111
     kanji: 元久
@@ -40,6 +44,7 @@ era:
     english: Genkyū
     start: 1204-03-30
     end: 1206-06-12
+
   kennei:
     number: 112
     kanji: 建永
@@ -47,6 +52,7 @@ era:
     english: Ken'ei
     start: 1206-06-12
     end: 1207-11-23
+
   jogen:
     number: 113
     kanji: 承元
@@ -54,6 +60,7 @@ era:
     english: Jōgen
     start: 1207-11-23
     end: 1211-04-30
+
   kenryaku:
     number: 114
     kanji: 建暦
@@ -61,6 +68,7 @@ era:
     english: Kenryaku
     start: 1211-04-30
     end: 1214-01-25
+
   kempo:
     number: 115
     kanji: 建保
@@ -68,6 +76,7 @@ era:
     english: Kempo
     start: 1214-01-25
     end: 1219-06-03
+
   jokyu:
     number: 116
     kanji: 承久
@@ -75,6 +84,7 @@ era:
     english: Jōkyū
     start: 1219-06-03
     end: 1222-06-01
+
   joo:
     number: 117
     kanji: 貞応
@@ -82,6 +92,7 @@ era:
     english: Jōō
     start: 1222-06-01
     end: 1225-01-07
+
   gennin:
     number: 118
     kanji: 元仁
@@ -89,6 +100,7 @@ era:
     english: Gennin
     start: 1225-01-07
     end: 1225-06-04
+
   karoku:
     number: 119
     kanji: 嘉禄
@@ -96,6 +108,7 @@ era:
     english: Karoku
     start: 1225-06-04
     end: 1228-01-25
+
   antei:
     number: 120
     kanji: 安貞
@@ -103,6 +116,7 @@ era:
     english: Antei
     start: 1228-01-25
     end: 1229-04-07
+
   kangi:
     number: 121
     kanji: 寛喜
@@ -110,6 +124,7 @@ era:
     english: Kangi
     start: 1229-04-07
     end: 1232-04-30
+
   joei:
     number: 122
     kanji: 貞永
@@ -117,6 +132,7 @@ era:
     english: Jōei
     start: 1232-04-30
     end: 1233-06-01
+
   tenpuku:
     number: 123
     kanji: 天福
@@ -124,6 +140,7 @@ era:
     english: Tenpuku
     start: 1233-06-01
     end: 1234-12-04
+
   bunryaku:
     number: 124
     kanji: 文暦
@@ -131,6 +148,7 @@ era:
     english: Bunryaku
     start: 1234-12-04
     end: 1235-11-08
+
   katei:
     number: 125
     kanji: 嘉禎
@@ -138,6 +156,7 @@ era:
     english: Katei
     start: 1235-11-08
     end: 1239-01-06
+
   ryakunin:
     number: 126
     kanji: 暦仁
@@ -145,6 +164,7 @@ era:
     english: Ryakunin
     start: 1239-01-06
     end: 1239-03-20
+
   enno:
     number: 127
     kanji: 延応
@@ -152,6 +172,7 @@ era:
     english: En'ō
     start: 1239-03-20
     end: 1240-08-12
+
   ninji:
     number: 128
     kanji: 仁治
@@ -159,6 +180,7 @@ era:
     english: Ninji
     start: 1240-08-12
     end: 1243-03-25
+
   kangen:
     number: 129
     kanji: 寛元
@@ -166,6 +188,7 @@ era:
     english: Kangen
     start: 1243-03-25
     end: 1247-04-12
+
   hoji:
     number: 130
     kanji: 宝治
@@ -173,6 +196,7 @@ era:
     english: Hōji
     start: 1247-04-12
     end: 1249-05-09
+
   kencho:
     number: 131
     kanji: 建長
@@ -180,6 +204,7 @@ era:
     english: Kenchō
     start: 1249-05-09
     end: 1256-10-31
+
   kogen:
     number: 132
     kanji: 康元
@@ -187,6 +212,7 @@ era:
     english: Kōgen
     start: 1256-10-31
     end: 1257-04-07
+
   shoka:
     number: 133
     kanji: 正嘉
@@ -194,6 +220,7 @@ era:
     english: Shōka
     start: 1257-04-07
     end: 1259-04-27
+
   shogen:
     number: 134
     kanji: 正元
@@ -201,6 +228,7 @@ era:
     english: Shōgen
     start: 1259-04-27
     end: 1260-05-31
+
   bunno:
     number: 135
     kanji: 文応
@@ -208,6 +236,7 @@ era:
     english: Bun'ō
     start: 1260-05-31
     end: 1261-03-29
+
   kocho:
     number: 136
     kanji: 弘長
@@ -215,6 +244,7 @@ era:
     english: Kōchō
     start: 1261-03-29
     end: 1264-04-03
+
   bunnei:
     number: 137
     kanji: 文永
@@ -222,6 +252,7 @@ era:
     english: Bun'ei
     start: 1264-04-03
     end: 1275-05-29
+
   kenji:
     number: 138
     kanji: 建治
@@ -229,6 +260,7 @@ era:
     english: Kenji
     start: 1275-05-29
     end: 1278-03-30
+
   koan:
     number: 139
     kanji: 弘安
@@ -236,6 +268,7 @@ era:
     english: Kōan
     start: 1278-03-30
     end: 1288-06-05
+
   shoo:
     number: 140
     kanji: 正応
@@ -243,6 +276,7 @@ era:
     english: Shōō
     start: 1288-06-05
     end: 1293-09-13
+
   einin:
     number: 141
     kanji: 永仁
@@ -250,6 +284,7 @@ era:
     english: Einin
     start: 1293-09-13
     end: 1299-06-01
+
   shoan:
     number: 142
     kanji: 正安
@@ -257,6 +292,7 @@ era:
     english: Shōan
     start: 1299-06-01
     end: 1302-12-18
+
   kengen:
     number: 143
     kanji: 乾元
@@ -264,6 +300,7 @@ era:
     english: Kengen
     start: 1302-12-18
     end: 1303-09-24
+
   kagen:
     number: 144
     kanji: 嘉元
@@ -271,6 +308,7 @@ era:
     english: Kagen
     start: 1303-09-24
     end: 1307-01-26
+
   tokuji:
     number: 145
     kanji: 徳治
@@ -278,6 +316,7 @@ era:
     english: Tokuji
     start: 1307-01-26
     end: 1308-11-30
+
   enkyo:
     number: 146
     kanji: 延慶
@@ -285,6 +324,7 @@ era:
     english: Enkyō
     start: 1308-11-30
     end: 1311-05-25
+
   ocho:
     number: 147
     kanji: 応長
@@ -292,6 +332,7 @@ era:
     english: Ōchō
     start: 1311-05-25
     end: 1312-05-05
+
   showa:
     number: 148
     kanji: 正和
@@ -299,6 +340,7 @@ era:
     english: Shōwa
     start: 1312-05-05
     end: 1317-03-24
+
   bunpo:
     number: 149
     kanji: 文保
@@ -306,6 +348,7 @@ era:
     english: Bunpō
     start: 1317-03-24
     end: 1319-05-26
+
   genno:
     number: 150
     kanji: 元応
@@ -313,6 +356,7 @@ era:
     english: Gen'ō
     start: 1319-05-26
     end: 1321-03-30
+
   genko:
     number: 151
     kanji: 元亨
@@ -320,6 +364,7 @@ era:
     english: Genkō
     start: 1321-03-30
     end: 1325-01-02
+
   shochu:
     number: 152
     kanji: 正中
@@ -327,6 +372,7 @@ era:
     english: Shōchū
     start: 1325-01-02
     end: 1326-06-05
+
   karyaku:
     number: 153
     kanji: 嘉暦

@@ -12,6 +12,7 @@ era:
     english: Meiji
     start: 1868-01-23
     end: 1912-07-30
+
   taisho:
     number: 229
     kanji: 大正
@@ -19,6 +20,7 @@ era:
     english: Taishō
     start: 1912-07-30
     end: 1926-12-25
+
   showa:
     number: 230
     kanji: 昭和
@@ -26,6 +28,7 @@ era:
     english: Shōwa
     start: 1926-12-25
     end: 1989-01-08
+
   heisei:
     number: 231
     kanji: 平成
@@ -33,6 +36,7 @@ era:
     english: Heisei
     start: 1989-01-08
     end: 2019-05-01
+
   reiwa:
     number: 232
     kanji: 令和

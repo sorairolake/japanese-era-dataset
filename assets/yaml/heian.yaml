@@ -12,6 +12,7 @@ era:
     english: Daidō
     start: 0806-06-12
     end: 0810-10-24
+
   konin:
     number: 20
     kanji: 弘仁
@@ -19,6 +20,7 @@ era:
     english: Kōnin
     start: 0810-10-24
     end: 0824-02-12
+
   tencho:
     number: 21
     kanji: 天長
@@ -26,6 +28,7 @@ era:
     english: Tenchō
     start: 0824-02-12
     end: 0834-02-18
+
   jowa:
     number: 22
     kanji: 承和
@@ -33,6 +36,7 @@ era:
     english: Jōwa
     start: 0834-02-18
     end: 0848-07-20
+
   kasho:
     number: 23
     kanji: 嘉祥
@@ -40,6 +44,7 @@ era:
     english: Kashō
     start: 0848-07-20
     end: 0851-06-05
+
   ninju:
     number: 24
     kanji: 仁寿
@@ -47,6 +52,7 @@ era:
     english: Ninju
     start: 0851-06-05
     end: 0854-12-27
+
   saiko:
     number: 25
     kanji: 斉衡
@@ -54,6 +60,7 @@ era:
     english: Saikō
     start: 0854-12-27
     end: 0857-03-24
+
   tennan:
     number: 26
     kanji: 天安
@@ -61,6 +68,7 @@ era:
     english: Ten'an
     start: 0857-03-24
     end: 0859-05-24
+
   jogan:
     number: 27
     kanji: 貞観
@@ -68,6 +76,7 @@ era:
     english: Jōgan
     start: 0859-05-24
     end: 0877-06-05
+
   gangyo:
     number: 28
     kanji: 元慶
@@ -75,6 +84,7 @@ era:
     english: Gangyō
     start: 0877-06-05
     end: 0885-03-15
+
   ninna:
     number: 29
     kanji: 仁和
@@ -82,6 +92,7 @@ era:
     english: Ninna
     start: 0885-03-15
     end: 0889-06-03
+
   kanpyo:
     number: 30
     kanji: 寛平
@@ -89,6 +100,7 @@ era:
     english: Kanpyō
     start: 0889-06-03
     end: 0898-05-24
+
   shotai:
     number: 31
     kanji: 昌泰
@@ -96,6 +108,7 @@ era:
     english: Shōtai
     start: 0898-05-24
     end: 0901-09-05
+
   engi:
     number: 32
     kanji: 延喜
@@ -103,6 +116,7 @@ era:
     english: Engi
     start: 0901-09-05
     end: 0923-06-03
+
   encho:
     number: 33
     kanji: 延長
@@ -110,6 +124,7 @@ era:
     english: Enchō
     start: 0923-06-03
     end: 0931-05-21
+
   johei:
     number: 34
     kanji: 承平
@@ -117,6 +132,7 @@ era:
     english: Jōhei
     start: 0931-05-21
     end: 0938-06-27
+
   tengyo:
     number: 35
     kanji: 天慶
@@ -124,6 +140,7 @@ era:
     english: Tengyō
     start: 0938-06-27
     end: 0947-05-20
+
   tenryaku:
     number: 36
     kanji: 天暦
@@ -131,6 +148,7 @@ era:
     english: Tenryaku
     start: 0947-05-20
     end: 0957-11-26
+
   tentoku:
     number: 37
     kanji: 天徳
@@ -138,6 +156,7 @@ era:
     english: Tentoku
     start: 0957-11-26
     end: 0961-03-10
+
   owa:
     number: 38
     kanji: 応和
@@ -145,6 +164,7 @@ era:
     english: Ōwa
     start: 0961-03-10
     end: 0964-08-24
+
   koho:
     number: 39
     kanji: 康保
@@ -152,6 +172,7 @@ era:
     english: Kōhō
     start: 0964-08-24
     end: 0968-09-13
+
   anna:
     number: 40
     kanji: 安和
@@ -159,6 +180,7 @@ era:
     english: Anna
     start: 0968-09-13
     end: 0970-05-08
+
   tenroku:
     number: 41
     kanji: 天禄
@@ -166,6 +188,7 @@ era:
     english: Tenroku
     start: 0970-05-08
     end: 0974-01-21
+
   tennen:
     number: 42
     kanji: 天延
@@ -173,6 +196,7 @@ era:
     english: Ten'en
     start: 0974-01-21
     end: 0976-08-16
+
   jogen:
     number: 43
     kanji: 貞元
@@ -180,6 +204,7 @@ era:
     english: Jōgen
     start: 0976-08-16
     end: 0979-01-05
+
   tengen:
     number: 44
     kanji: 天元
@@ -187,6 +212,7 @@ era:
     english: Tengen
     start: 0979-01-05
     end: 0983-06-03
+
   eikan:
     number: 45
     kanji: 永観
@@ -194,6 +220,7 @@ era:
     english: Eikan
     start: 0983-06-03
     end: 0985-05-24
+
   kanna:
     number: 46
     kanji: 寛和
@@ -201,6 +228,7 @@ era:
     english: Kanna
     start: 0985-05-24
     end: 0987-05-10
+
   eien:
     number: 47
     kanji: 永延
@@ -208,6 +236,7 @@ era:
     english: Eien
     start: 0987-05-10
     end: 0989-09-15
+
   eiso:
     number: 48
     kanji: 永祚
@@ -215,6 +244,7 @@ era:
     english: Eiso
     start: 0989-09-15
     end: 0990-12-01
+
   shoryaku:
     number: 49
     kanji: 正暦
@@ -222,6 +252,7 @@ era:
     english: Shōryaku
     start: 0990-12-01
     end: 0995-03-30
+
   chotoku:
     number: 50
     kanji: 長徳
@@ -229,6 +260,7 @@ era:
     english: Chōtoku
     start: 0995-03-30
     end: 0999-02-06
+
   choho:
     number: 51
     kanji: 長保
@@ -236,6 +268,7 @@ era:
     english: Chōhō
     start: 0999-02-06
     end: 1004-08-14
+
   kanko:
     number: 52
     kanji: 寛弘
@@ -243,6 +276,7 @@ era:
     english: Kankō
     start: 1004-08-14
     end: 1013-02-14
+
   chowa:
     number: 53
     kanji: 長和
@@ -250,6 +284,7 @@ era:
     english: Chōwa
     start: 1013-02-14
     end: 1017-05-27
+
   kannin:
     number: 54
     kanji: 寛仁
@@ -257,6 +292,7 @@ era:
     english: Kannin
     start: 1017-05-27
     end: 1021-03-23
+
   jian:
     number: 55
     kanji: 治安
@@ -264,6 +300,7 @@ era:
     english: Jian
     start: 1021-03-23
     end: 1024-08-25
+
   manju:
     number: 56
     kanji: 万寿
@@ -271,6 +308,7 @@ era:
     english: Manju
     start: 1024-08-25
     end: 1028-08-24
+
   chogen:
     number: 57
     kanji: 長元
@@ -278,6 +316,7 @@ era:
     english: Chōgen
     start: 1028-08-24
     end: 1037-05-15
+
   choryaku:
     number: 58
     kanji: 長暦
@@ -285,6 +324,7 @@ era:
     english: Chōryaku
     start: 1037-05-15
     end: 1040-12-22
+
   chokyu:
     number: 59
     kanji: 長久
@@ -292,6 +332,7 @@ era:
     english: Chōkyū
     start: 1040-12-22
     end: 1044-12-22
+
   kantoku:
     number: 60
     kanji: 寛徳
@@ -299,6 +340,7 @@ era:
     english: Kantoku
     start: 1044-12-22
     end: 1046-05-28
+
   eisho:
     number: 61
     kanji: 永承
@@ -306,6 +348,7 @@ era:
     english: Eishō
     start: 1046-05-28
     end: 1053-02-08
+
   tengi:
     number: 62
     kanji: 天喜
@@ -313,6 +356,7 @@ era:
     english: Tengi
     start: 1053-02-08
     end: 1058-09-25
+
   kohei:
     number: 63
     kanji: 康平
@@ -320,6 +364,7 @@ era:
     english: Kōhei
     start: 1058-09-25
     end: 1065-09-10
+
   jiryaku:
     number: 64
     kanji: 治暦
@@ -327,6 +372,7 @@ era:
     english: Jiryaku
     start: 1065-09-10
     end: 1069-05-12
+
   enkyu:
     number: 65
     kanji: 延久
@@ -334,6 +380,7 @@ era:
     english: Enkyū
     start: 1069-05-12
     end: 1074-09-22
+
   joho:
     number: 66
     kanji: 承保
@@ -341,6 +388,7 @@ era:
     english: Jōhō
     start: 1074-09-22
     end: 1077-12-11
+
   joryaku:
     number: 67
     kanji: 承暦
@@ -348,6 +396,7 @@ era:
     english: Jōryaku
     start: 1077-12-11
     end: 1081-03-28
+
   eiho:
     number: 68
     kanji: 永保
@@ -355,6 +404,7 @@ era:
     english: Eihō
     start: 1081-03-28
     end: 1084-03-21
+
   otoku:
     number: 69
     kanji: 応徳
@@ -362,6 +412,7 @@ era:
     english: Ōtoku
     start: 1084-03-21
     end: 1087-05-17
+
   kanji:
     number: 70
     kanji: 寛治
@@ -369,6 +420,7 @@ era:
     english: Kanji
     start: 1087-05-17
     end: 1095-01-29
+
   kaho:
     number: 71
     kanji: 嘉保
@@ -376,6 +428,7 @@ era:
     english: Kahō
     start: 1095-01-29
     end: 1097-01-09
+
   eicho:
     number: 72
     kanji: 永長
@@ -383,6 +436,7 @@ era:
     english: Eichō
     start: 1097-01-09
     end: 1098-01-02
+
   jotoku:
     number: 73
     kanji: 承徳
@@ -390,6 +444,7 @@ era:
     english: Jōtoku
     start: 1098-01-02
     end: 1099-09-21
+
   kowa:
     number: 74
     kanji: 康和
@@ -397,6 +452,7 @@ era:
     english: Kōwa
     start: 1099-09-21
     end: 1104-03-15
+
   choji:
     number: 75
     kanji: 長治
@@ -404,6 +460,7 @@ era:
     english: Chōji
     start: 1104-03-15
     end: 1106-05-20
+
   kajo:
     number: 76
     kanji: 嘉承
@@ -411,6 +468,7 @@ era:
     english: Kajō
     start: 1106-05-20
     end: 1108-09-16
+
   tennin:
     number: 77
     kanji: 天仁
@@ -418,6 +476,7 @@ era:
     english: Tennin
     start: 1108-09-16
     end: 1110-08-07
+
   tennei:
     number: 78
     kanji: 天永
@@ -425,6 +484,7 @@ era:
     english: Ten'ei
     start: 1110-08-07
     end: 1113-09-01
+
   eikyu:
     number: 79
     kanji: 永久
@@ -432,6 +492,7 @@ era:
     english: Eikyū
     start: 1113-09-01
     end: 1118-05-02
+
   gennei:
     number: 80
     kanji: 元永
@@ -439,6 +500,7 @@ era:
     english: Gen'ei
     start: 1118-05-02
     end: 1120-05-16
+
   hoan:
     number: 81
     kanji: 保安
@@ -446,6 +508,7 @@ era:
     english: Hōan
     start: 1120-05-16
     end: 1124-05-25
+
   tenji:
     number: 82
     kanji: 天治
@@ -453,6 +516,7 @@ era:
     english: Tenji
     start: 1124-05-25
     end: 1126-02-22
+
   daiji:
     number: 83
     kanji: 大治
@@ -460,6 +524,7 @@ era:
     english: Daiji
     start: 1126-02-22
     end: 1131-03-07
+
   tensho:
     number: 84
     kanji: 天承
@@ -467,6 +532,7 @@ era:
     english: Tenshō
     start: 1131-03-07
     end: 1132-09-28
+
   chosho:
     number: 85
     kanji: 長承
@@ -474,6 +540,7 @@ era:
     english: Chōshō
     start: 1132-09-28
     end: 1135-06-17
+
   hoen:
     number: 86
     kanji: 保延
@@ -481,6 +548,7 @@ era:
     english: Hōen
     start: 1135-06-17
     end: 1141-08-20
+
   eiji:
     number: 87
     kanji: 永治
@@ -488,6 +556,7 @@ era:
     english: Eiji
     start: 1141-08-20
     end: 1142-06-01
+
   koji:
     number: 88
     kanji: 康治
@@ -495,6 +564,7 @@ era:
     english: Kōji
     start: 1142-06-01
     end: 1144-04-04
+
   tennyo:
     number: 89
     kanji: 天養
@@ -502,6 +572,7 @@ era:
     english: Ten'yō
     start: 1144-04-04
     end: 1145-08-19
+
   kyuan:
     number: 90
     kanji: 久安
@@ -509,6 +580,7 @@ era:
     english: Kyūan
     start: 1145-08-19
     end: 1151-02-21
+
   ninpei:
     number: 91
     kanji: 仁平
@@ -516,6 +588,7 @@ era:
     english: Ninpei
     start: 1151-02-21
     end: 1154-12-11
+
   kyuju:
     number: 92
     kanji: 久寿
@@ -523,6 +596,7 @@ era:
     english: Kyūju
     start: 1154-12-11
     end: 1156-05-25
+
   hogen:
     number: 93
     kanji: 保元
@@ -530,6 +604,7 @@ era:
     english: Hōgen
     start: 1156-05-25
     end: 1159-05-16
+
   heiji:
     number: 94
     kanji: 平治
@@ -537,6 +612,7 @@ era:
     english: Heiji
     start: 1159-05-16
     end: 1160-02-25
+
   eiryaku:
     number: 95
     kanji: 永暦
@@ -544,6 +620,7 @@ era:
     english: Eiryaku
     start: 1160-02-25
     end: 1161-10-01
+
   oho:
     number: 96
     kanji: 応保
@@ -551,6 +628,7 @@ era:
     english: Ōhō
     start: 1161-10-01
     end: 1163-05-11
+
   chokan:
     number: 97
     kanji: 長寛
@@ -558,6 +636,7 @@ era:
     english: Chōkan
     start: 1163-05-11
     end: 1165-07-21
+
   eiman:
     number: 98
     kanji: 永万
@@ -565,6 +644,7 @@ era:
     english: Eiman
     start: 1165-07-21
     end: 1166-09-30
+
   ninnan:
     number: 99
     kanji: 仁安
@@ -572,6 +652,7 @@ era:
     english: Nin'an
     start: 1166-09-30
     end: 1169-05-13
+
   kao:
     number: 100
     kanji: 嘉応
@@ -579,6 +660,7 @@ era:
     english: Kaō
     start: 1169-05-13
     end: 1171-06-03
+
   joan:
     number: 101
     kanji: 承安
@@ -586,6 +668,7 @@ era:
     english: Jōan
     start: 1171-06-03
     end: 1175-08-23
+
   angen:
     number: 102
     kanji: 安元
@@ -593,6 +676,7 @@ era:
     english: Angen
     start: 1175-08-23
     end: 1177-09-05
+
   jisho:
     number: 103
     kanji: 治承
@@ -600,6 +684,7 @@ era:
     english: Jishō
     start: 1177-09-05
     end: 1181-09-01
+
   yowa:
     number: 104
     kanji: 養和
@@ -607,6 +692,7 @@ era:
     english: Yōwa
     start: 1181-09-01
     end: 1182-07-06
+
   juei:
     number: 105
     kanji: 寿永
@@ -614,6 +700,7 @@ era:
     english: Juei
     start: 1182-07-06
     end: 1184-06-03
+
   genryaku:
     number: 106
     kanji: 元暦

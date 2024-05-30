@@ -13,6 +13,7 @@ era:
     english: Gentoku
     start: 1329-09-30
     end: 1331-09-19
+
   genko:
     number: 155
     southern-number: 1
@@ -21,6 +22,7 @@ era:
     english: Genkō
     start: 1331-09-19
     end: 1334-03-13
+
   kenmu:
     number: 156
     southern-number: null
@@ -29,6 +31,7 @@ era:
     english: Kenmu
     start: 1334-03-13
     end: 1336-04-19
+
   engen:
     number: 157
     southern-number: 2
@@ -37,6 +40,7 @@ era:
     english: Engen
     start: 1336-04-19
     end: 1340-06-02
+
   kokoku:
     number: 158
     southern-number: 3
@@ -45,6 +49,7 @@ era:
     english: Kōkoku
     start: 1340-06-02
     end: 1347-01-28
+
   shohei:
     number: 159
     southern-number: 4
@@ -53,6 +58,7 @@ era:
     english: Shōhei
     start: 1347-01-28
     end: 1370-08-24
+
   kentoku:
     number: 160
     southern-number: 5
@@ -61,6 +67,7 @@ era:
     english: Kentoku
     start: 1370-08-24
     end: 1372-05-09
+
   bunchu:
     number: 161
     southern-number: 6
@@ -69,6 +76,7 @@ era:
     english: Bunchū
     start: 1372-05-09
     end: 1375-07-04
+
   tenju:
     number: 162
     southern-number: 7
@@ -77,6 +85,7 @@ era:
     english: Tenju
     start: 1375-07-04
     end: 1381-03-14
+
   kowa:
     number: 163
     southern-number: 8
@@ -85,6 +94,7 @@ era:
     english: Kōwa
     start: 1381-03-14
     end: 1384-05-26
+
   genchu:
     number: 164
     southern-number: 9
