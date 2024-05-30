@@ -22,7 +22,7 @@ setup-python:
     #!/usr/bin/env bash
     python3 -m venv venv
     source venv/bin/activate
-    pip3 install PyYAML ruff tomli-w yamllint
+    pip3 install PyYAML mypy ruff tomli-w types-PyYAML yamllint
 
 # Run the formatter for the Python scripts
 python-fmt:
@@ -41,6 +41,12 @@ python-lint-fix:
     #!/usr/bin/env bash
     source venv/bin/activate
     ruff check --fix .
+
+# Run `mypy`
+python-type-check:
+    #!/usr/bin/env bash
+    source venv/bin/activate
+    mypy --allow-redefinition .
 
 # Generate the JSON files
 generate-json:

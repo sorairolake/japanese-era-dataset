@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 from pathlib import Path
-from typing import Final
+from typing import Any, Final
 
 import tomli_w
 import yaml
@@ -15,7 +15,7 @@ YAML_DIR: Final[Path] = ASSETS_DIR / "yaml"
 TOML_DIR: Final[Path] = ASSETS_DIR / "toml"
 
 
-def remove_none(data):
+def remove_none(data: dict[str, Any]) -> dict[str, Any]:
     if isinstance(data, dict):
         return {k: remove_none(v) for k, v in data.items() if v is not None}
     return data

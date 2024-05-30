@@ -53,9 +53,12 @@ jobs:
           cache: "pip"
       - name: Install dependencies
         run: |
-          pip install ruff
+          pip install PyYAML mypy ruff tomli-w types-PyYAML
           ruff version
+          mypy -V
       - name: Check code formatted
         run: ruff format --check .
       - name: Check no lint warnings
         run: ruff check .
+      - name: Type-check
+        run: mypy --allow-redefinition .
