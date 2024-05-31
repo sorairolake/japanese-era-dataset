@@ -1,0 +1,98 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+name: CD
+
+on:
+  pull_request:
+  push:
+    branches:
+      - "develop"
+    tags:
+      - "v[0-9][0-9][0-9][0-9].[0-1][0-9].[0-3][0-9]-?*"
+
+permissions:
+  contents: write
+
+jobs:
+  get-version:
+    name: Get version
+    runs-on: ubuntu-22.04
+    outputs:
+      version: ${{ steps.get_version.outputs.version }}
+      version_without_v: ${{ steps.get_version_without_v.outputs.version-without-v }}
+    steps:
+      - name: Get version
+        id: get_version
+        run: echo "version=${GITHUB_REF_NAME##*/}" >> "$GITHUB_OUTPUT"
+      - name: Get version without v
+        id: get_version_without_v
+        run: echo "version-without-v=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+
+  build:
+    name: Build
+    needs: get-version
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+      - name: Install dependencies
+        run: pip install PyYAML tomli-w
+      - name: Install dependencies
+        run: |
+          python3 scripts/yaml2json.py
+          python3 scripts/yaml2toml.py
+          rm -v assets/*/.gitkeep
+      - name: Create a package
+        shell: bash
+        run: |
+          package="japanese-era-dataset-${{ needs.get-version.outputs.version }}"
+
+          mkdir "${package}"
+          cp {README,README.ja}.adoc "${package}"
+          cp -r assets LICENSES "${package}"
+
+          tar -cvf "${package}.tar" "${package}"
+          gzip -k -v -9 "${package}.tar"
+          zstd --rm -19 -v "${package}.tar"
+          7z a -bb -mx=9 -mm=Deflate "${package}.zip" "${package}"
+          7z a -bb -mx=9 -m0=LZMA "${package}.7z" "${package}"
+          rm -rv japanese-era-dataset-*/
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: "japanese-era-dataset-${{ needs.get-version.outputs.version }}"
+          path: "japanese-era-dataset-*-*"
+
+  release:
+    name: Release
+    needs:
+      - get-version
+      - build
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+      - name: Calculate checksums
+        run: |
+          mv japanese-era-dataset-*/* .
+          rmdir -v japanese-era-dataset-*/
+          sha256sum japanese-era-dataset-* | tee sha256sums.txt
+          b2sum japanese-era-dataset-* | tee b2sums.txt
+      - name: Release
+        uses: softprops/action-gh-release@v2.0.5
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            japanese-era-dataset-*
+            sha256sums.txt
+            b2sums.txt
+          name: "Release version ${{ needs.get-version.outputs.version_without_v }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
