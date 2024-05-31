@@ -1,0 +1,54 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+%YAML 1.2
+---
+era:
+  taika:
+    number: 1
+    kanji: 大化
+    kyujitai: "大化\U000E0101"
+    english: Taika
+    start: 0645-07-20
+    end: 0650-03-25
+
+  hakuchi:
+    number: 2
+    kanji: 白雉
+    kyujitai: null
+    english: Hakuchi
+    start: 0650-03-25
+    end: 0654-11-27
+
+  shucho:
+    number: 3
+    kanji: 朱鳥
+    kyujitai: null
+    english: Shuchō
+    start: 0686-08-17
+    end: 0686-10-04
+
+  taiho:
+    number: 4
+    kanji: 大宝
+    kyujitai: 大寶
+    english: Taihō
+    start: 0701-05-07
+    end: 0704-06-20
+
+  keiun:
+    number: 5
+    kanji: 慶雲
+    kyujitai: null
+    english: Keiun
+    start: 0704-06-20
+    end: 0708-02-11
+
+  wado:
+    number: 6
+    kanji: 和銅
+    kyujitai: null
+    english: Wadō
+    start: 0708-02-11
+    end: 0715-10-07

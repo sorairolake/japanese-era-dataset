@@ -1,0 +1,64 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - "develop"
+      - "master"
+  schedule:
+    - cron: "0 0 * * 0"
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+      - name: Install dependencies
+        run: |
+          npm ci
+          npx prettier -v
+          pip install yamllint
+          yamllint -v
+      - name: Check code formatted
+        run: npx prettier -c assets/yaml/*.yaml
+      - name: Check no lint warnings
+        run: yamllint -s assets/yaml/*.yaml
+
+  python-test:
+    name: Test Python scripts
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+      - name: Install dependencies
+        run: |
+          pip install PyYAML mypy ruff tomli-w types-PyYAML
+          ruff version
+          mypy -V
+      - name: Check code formatted
+        run: ruff format --check .
+      - name: Check no lint warnings
+        run: ruff check .
+      - name: Type-check
+        run: mypy --allow-redefinition .

@@ -1,0 +1,198 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+%YAML 1.2
+---
+era:
+  oei:
+    number: 166
+    kanji: 応永
+    kyujitai: 應永
+    english: Ōei
+    start: 1394-08-10
+    end: 1428-06-19
+
+  shocho:
+    number: 167
+    kanji: 正長
+    kyujitai: null
+    english: Shōchō
+    start: 1428-06-19
+    end: 1429-10-12
+
+  eikyo:
+    number: 168
+    kanji: 永享
+    kyujitai: null
+    english: Eikyō
+    start: 1429-10-12
+    end: 1441-03-19
+
+  kakitsu:
+    number: 169
+    kanji: 嘉吉
+    kyujitai: null
+    english: Kakitsu
+    start: 1441-03-19
+    end: 1444-03-03
+
+  bunnan:
+    number: 170
+    kanji: 文安
+    kyujitai: "文\U000E0101安"
+    english: Bun'an
+    start: 1444-03-03
+    end: 1449-08-25
+
+  hotoku:
+    number: 171
+    kanji: 宝徳
+    kyujitai: 寶德
+    english: Hōtoku
+    start: 1449-08-25
+    end: 1452-08-19
+
+  kyotoku:
+    number: 172
+    kanji: 享徳
+    kyujitai: 享德
+    english: Kyōtoku
+    start: 1452-08-19
+    end: 1455-09-15
+
+  kosho:
+    number: 173
+    kanji: 康正
+    kyujitai: null
+    english: Kōshō
+    start: 1455-09-15
+    end: 1457-10-25
+
+  choroku:
+    number: 174
+    kanji: 長禄
+    kyujitai: 長祿
+    english: Chōroku
+    start: 1457-10-25
+    end: 1461-02-10
+
+  kansho:
+    number: 175
+    kanji: 寛正
+    kyujitai: "寛\U000E0101正"
+    english: Kanshō
+    start: 1461-02-10
+    end: 1466-03-23
+
+  bunsho:
+    number: 176
+    kanji: 文正
+    kyujitai: "文\U000E0101正"
+    english: Bunshō
+    start: 1466-03-23
+    end: 1467-04-18
+
+  onin:
+    number: 177
+    kanji: 応仁
+    kyujitai: 應仁
+    english: Ōnin
+    start: 1467-04-18
+    end: 1469-06-17
+
+  bunmei:
+    number: 178
+    kanji: 文明
+    kyujitai: "文\U000E0101明\U000E0101"
+    english: Bunmei
+    start: 1469-06-17
+    end: 1487-08-18
+
+  chokyo:
+    number: 179
+    kanji: 長享
+    kyujitai: null
+    english: Chōkyō
+    start: 1487-08-18
+    end: 1489-09-25
+
+  entoku:
+    number: 180
+    kanji: 延徳
+    kyujitai: "延\U000E0102德"
+    english: Entoku
+    start: 1489-09-25
+    end: 1492-08-21
+
+  meio:
+    number: 181
+    kanji: 明応
+    kyujitai: "明\U000E0101應"
+    english: Meiō
+    start: 1492-08-21
+    end: 1501-03-28
+
+  bunki:
+    number: 182
+    kanji: 文亀
+    kyujitai: "文\U000E0101龜"
+    english: Bunki
+    start: 1501-03-28
+    end: 1504-03-26
+
+  eisho:
+    number: 183
+    kanji: 永正
+    kyujitai: null
+    english: Eishō
+    start: 1504-03-26
+    end: 1521-10-03
+
+  daiei:
+    number: 184
+    kanji: 大永
+    kyujitai: null
+    english: Daiei
+    start: 1521-10-03
+    end: 1528-09-13
+
+  kyoroku:
+    number: 185
+    kanji: 享禄
+    kyujitai: 享祿
+    english: Kyōroku
+    start: 1528-09-13
+    end: 1532-09-08
+
+  tenbun:
+    number: 186
+    kanji: 天文
+    kyujitai: "天文\U000E0101"
+    english: Tenbun
+    start: 1532-09-08
+    end: 1555-11-17
+
+  koji:
+    number: 187
+    kanji: 弘治
+    kyujitai: null
+    english: Kōji
+    start: 1555-11-17
+    end: 1558-03-28
+
+  eiroku:
+    number: 188
+    kanji: 永禄
+    kyujitai: 永祿
+    english: Eiroku
+    start: 1558-03-28
+    end: 1570-06-06
+
+  genki:
+    number: 189
+    kanji: 元亀
+    kyujitai: 元龜
+    english: Genki
+    start: 1570-06-06
+    end: 1573-09-04

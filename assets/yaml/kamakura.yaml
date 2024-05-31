@@ -1,0 +1,382 @@
+# SPDX-FileCopyrightText: None
+#
+# SPDX-License-Identifier: CC0-1.0
+
+%YAML 1.2
+---
+era:
+  bunji:
+    number: 107
+    kanji: 文治
+    kyujitai: "文\U000E0101治"
+    english: Bunji
+    start: 1185-09-16
+    end: 1190-05-23
+
+  kenkyu:
+    number: 108
+    kanji: 建久
+    kyujitai: "建\U000E0101久"
+    english: Kenkyū
+    start: 1190-05-23
+    end: 1199-05-30
+
+  shoji:
+    number: 109
+    kanji: 正治
+    kyujitai: null
+    english: Shōji
+    start: 1199-05-30
+    end: 1201-03-26
+
+  kennin:
+    number: 110
+    kanji: 建仁
+    kyujitai: "建\U000E0101仁"
+    english: Kennin
+    start: 1201-03-26
+    end: 1204-03-30
+
+  genkyu:
+    number: 111
+    kanji: 元久
+    kyujitai: null
+    english: Genkyū
+    start: 1204-03-30
+    end: 1206-06-12
+
+  kennei:
+    number: 112
+    kanji: 建永
+    kyujitai: "建\U000E0101永"
+    english: Ken'ei
+    start: 1206-06-12
+    end: 1207-11-23
+
+  jogen:
+    number: 113
+    kanji: 承元
+    kyujitai: null
+    english: Jōgen
+    start: 1207-11-23
+    end: 1211-04-30
+
+  kenryaku:
+    number: 114
+    kanji: 建暦
+    kyujitai: "建\U000E0101曆"
+    english: Kenryaku
+    start: 1211-04-30
+    end: 1214-01-25
+
+  kempo:
+    number: 115
+    kanji: 建保
+    kyujitai: "建\U000E0101保"
+    english: Kempo
+    start: 1214-01-25
+    end: 1219-06-03
+
+  jokyu:
+    number: 116
+    kanji: 承久
+    kyujitai: null
+    english: Jōkyū
+    start: 1219-06-03
+    end: 1222-06-01
+
+  joo:
+    number: 117
+    kanji: 貞応
+    kyujitai: 貞應
+    english: Jōō
+    start: 1222-06-01
+    end: 1225-01-07
+
+  gennin:
+    number: 118
+    kanji: 元仁
+    kyujitai: null
+    english: Gennin
+    start: 1225-01-07
+    end: 1225-06-04
+
+  karoku:
+    number: 119
+    kanji: 嘉禄
+    kyujitai: 嘉祿
+    english: Karoku
+    start: 1225-06-04
+    end: 1228-01-25
+
+  antei:
+    number: 120
+    kanji: 安貞
+    kyujitai: null
+    english: Antei
+    start: 1228-01-25
+    end: 1229-04-07
+
+  kangi:
+    number: 121
+    kanji: 寛喜
+    kyujitai: "寛\U000E0101喜"
+    english: Kangi
+    start: 1229-04-07
+    end: 1232-04-30
+
+  joei:
+    number: 122
+    kanji: 貞永
+    kyujitai: null
+    english: Jōei
+    start: 1232-04-30
+    end: 1233-06-01
+
+  tenpuku:
+    number: 123
+    kanji: 天福
+    kyujitai: "天福\U000E0101"
+    english: Tenpuku
+    start: 1233-06-01
+    end: 1234-12-04
+
+  bunryaku:
+    number: 124
+    kanji: 文暦
+    kyujitai: "文\U000E0101曆"
+    english: Bunryaku
+    start: 1234-12-04
+    end: 1235-11-08
+
+  katei:
+    number: 125
+    kanji: 嘉禎
+    kyujitai: "嘉禎\U000E0101"
+    english: Katei
+    start: 1235-11-08
+    end: 1239-01-06
+
+  ryakunin:
+    number: 126
+    kanji: 暦仁
+    kyujitai: 曆仁
+    english: Ryakunin
+    start: 1239-01-06
+    end: 1239-03-20
+
+  enno:
+    number: 127
+    kanji: 延応
+    kyujitai: "延\U000E0102應"
+    english: En'ō
+    start: 1239-03-20
+    end: 1240-08-12
+
+  ninji:
+    number: 128
+    kanji: 仁治
+    kyujitai: null
+    english: Ninji
+    start: 1240-08-12
+    end: 1243-03-25
+
+  kangen:
+    number: 129
+    kanji: 寛元
+    kyujitai: "寛\U000E0101元"
+    english: Kangen
+    start: 1243-03-25
+    end: 1247-04-12
+
+  hoji:
+    number: 130
+    kanji: 宝治
+    kyujitai: 寶治
+    english: Hōji
+    start: 1247-04-12
+    end: 1249-05-09
+
+  kencho:
+    number: 131
+    kanji: 建長
+    kyujitai: "建\U000E0101長"
+    english: Kenchō
+    start: 1249-05-09
+    end: 1256-10-31
+
+  kogen:
+    number: 132
+    kanji: 康元
+    kyujitai: null
+    english: Kōgen
+    start: 1256-10-31
+    end: 1257-04-07
+
+  shoka:
+    number: 133
+    kanji: 正嘉
+    kyujitai: null
+    english: Shōka
+    start: 1257-04-07
+    end: 1259-04-27
+
+  shogen:
+    number: 134
+    kanji: 正元
+    kyujitai: null
+    english: Shōgen
+    start: 1259-04-27
+    end: 1260-05-31
+
+  bunno:
+    number: 135
+    kanji: 文応
+    kyujitai: "文\U000E0101應"
+    english: Bun'ō
+    start: 1260-05-31
+    end: 1261-03-29
+
+  kocho:
+    number: 136
+    kanji: 弘長
+    kyujitai: null
+    english: Kōchō
+    start: 1261-03-29
+    end: 1264-04-03
+
+  bunnei:
+    number: 137
+    kanji: 文永
+    kyujitai: "文\U000E0101永"
+    english: Bun'ei
+    start: 1264-04-03
+    end: 1275-05-29
+
+  kenji:
+    number: 138
+    kanji: 建治
+    kyujitai: "建\U000E0101治"
+    english: Kenji
+    start: 1275-05-29
+    end: 1278-03-30
+
+  koan:
+    number: 139
+    kanji: 弘安
+    kyujitai: null
+    english: Kōan
+    start: 1278-03-30
+    end: 1288-06-05
+
+  shoo:
+    number: 140
+    kanji: 正応
+    kyujitai: 正應
+    english: Shōō
+    start: 1288-06-05
+    end: 1293-09-13
+
+  einin:
+    number: 141
+    kanji: 永仁
+    kyujitai: null
+    english: Einin
+    start: 1293-09-13
+    end: 1299-06-01
+
+  shoan:
+    number: 142
+    kanji: 正安
+    kyujitai: null
+    english: Shōan
+    start: 1299-06-01
+    end: 1302-12-18
+
+  kengen:
+    number: 143
+    kanji: 乾元
+    kyujitai: null
+    english: Kengen
+    start: 1302-12-18
+    end: 1303-09-24
+
+  kagen:
+    number: 144
+    kanji: 嘉元
+    kyujitai: null
+    english: Kagen
+    start: 1303-09-24
+    end: 1307-01-26
+
+  tokuji:
+    number: 145
+    kanji: 徳治
+    kyujitai: 德治
+    english: Tokuji
+    start: 1307-01-26
+    end: 1308-11-30
+
+  enkyo:
+    number: 146
+    kanji: 延慶
+    kyujitai: "延\U000E0102慶"
+    english: Enkyō
+    start: 1308-11-30
+    end: 1311-05-25
+
+  ocho:
+    number: 147
+    kanji: 応長
+    kyujitai: 應長
+    english: Ōchō
+    start: 1311-05-25
+    end: 1312-05-05
+
+  showa:
+    number: 148
+    kanji: 正和
+    kyujitai: null
+    english: Shōwa
+    start: 1312-05-05
+    end: 1317-03-24
+
+  bunpo:
+    number: 149
+    kanji: 文保
+    kyujitai: "文\U000E0101保"
+    english: Bunpō
+    start: 1317-03-24
+    end: 1319-05-26
+
+  genno:
+    number: 150
+    kanji: 元応
+    kyujitai: 元應
+    english: Gen'ō
+    start: 1319-05-26
+    end: 1321-03-30
+
+  genko:
+    number: 151
+    kanji: 元亨
+    kyujitai: null
+    english: Genkō
+    start: 1321-03-30
+    end: 1325-01-02
+
+  shochu:
+    number: 152
+    kanji: 正中
+    kyujitai: null
+    english: Shōchū
+    start: 1325-01-02
+    end: 1326-06-05
+
+  karyaku:
+    number: 153
+    kanji: 嘉暦
+    kyujitai: 嘉曆
+    english: Karyaku
+    start: 1326-06-05
+    end: 1329-09-30
