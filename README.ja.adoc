@@ -12,8 +12,7 @@
 :jawp-article-url: {jawp-url}/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_(%E6%97%A5%E6%9C%AC)
 :assets-dir: assets
 :yaml-dir: {assets-dir}/yaml
-:pyyaml-url: {github-url}/yaml/pyyaml
-:tomli-w-url: {github-url}/hukkin/tomli-w
+:deno-url: https://deno.com/
 :enwp-url: https://en.wikipedia.org
 :enwp-article-url: {enwp-url}/wiki/Japanese_era_name
 :reuse-spec-url: https://reuse.software/spec/
@@ -125,29 +124,15 @@ link:{yaml-dir}/modern.yaml[]::
 
 === 他のフォーマットへの変換
 
-このプロジェクトにはYAMLファイルをJSONファイルやTOMLファイルに変換するためのPythonスクリプトが含まれています。
-
-IMPORTANT: 変換にはlink:{pyyaml-url}[_PyYAML_]が必要です。
+このプロジェクトにはYAMLファイルをJSONファイルに変換するためのlink:{deno-url}[Deno]スクリプトが含まれています。
 
 .JSONファイルへ変換
 [source,sh]
 ----
-./scripts/yaml2json.py
+./scripts/yaml2json.ts
 ----
 
 JSONファイルは``{assets-dir}/json``ディレクトリに出力されます。
-
-.TOMLファイルへ変換
-[source,sh]
-----
-./scripts/yaml2toml.py
-----
-
-TOMLファイルは``{assets-dir}/toml``ディレクトリに出力されます。
-
-IMPORTANT: 変換にはlink:{tomli-w-url}[_Tomli-W_]が必要です。
-
-NOTE: 値が``null``のキーは取り除かれます。
 
 == 謝辞
 

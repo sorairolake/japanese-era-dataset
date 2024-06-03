@@ -40,25 +40,19 @@ jobs:
       - name: Check no lint warnings
         run: yamllint -s assets/yaml/*.yaml
 
-  python-test:
-    name: Test Python scripts
+  deno-test:
+    name: Test Deno scripts
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1.1.4
         with:
-          python-version: "3.12"
-          cache: "pip"
-      - name: Install dependencies
-        run: |
-          pip install PyYAML mypy ruff tomli-w types-PyYAML
-          ruff version
-          mypy -V
+          deno-version: v1.x
       - name: Check code formatted
-        run: ruff format --check .
+        run: deno fmt --check scripts/*.ts
       - name: Check no lint warnings
-        run: ruff check .
+        run: deno lint scripts/*.ts
       - name: Type-check
-        run: mypy --allow-redefinition .
+        run: deno check scripts/*.ts
