@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: None
+//
+// SPDX-License-Identifier: CC0-1.0
+
 {
   "imports": {
     "@std/path": "jsr:@std/path@^0.225.2",
