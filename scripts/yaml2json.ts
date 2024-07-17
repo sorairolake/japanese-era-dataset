@@ -1,6 +1,6 @@
 #!/usr/bin/env -S deno run --allow-read --allow-write
 
-// SPDX-FileCopyrightText: None
+// SPDX-FileCopyrightText: 2024 Shun Sakai
 //
 // SPDX-License-Identifier: CC0-1.0
 
