@@ -4,8 +4,8 @@
 
 {
   "imports": {
-    "@std/path": "jsr:@std/path@^0.225.2",
-    "@std/yaml": "jsr:@std/yaml@^0.224.3"
+    "@std/path": "jsr:@std/path@^1.0.2",
+    "@std/yaml": "jsr:@std/yaml@^1.0.0"
   },
   "lock": false
 }
