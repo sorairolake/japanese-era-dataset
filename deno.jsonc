@@ -5,7 +5,7 @@
 {
   "imports": {
     "@std/path": "jsr:@std/path@^1.0.2",
-    "@std/yaml": "jsr:@std/yaml@^1.0.0"
+    "@std/yaml": "jsr:@std/yaml@^1.0.3"
   },
   "lock": false
 }
