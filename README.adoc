@@ -134,6 +134,14 @@ link:{yaml-dir}/modern.yaml[]::
 
 JSONファイルは``{assets-dir}/json``ディレクトリに出力されます。
 
+== 変更履歴
+
+link:CHANGELOG.adoc[]を参照して下さい。
+
+== 貢献方法
+
+link:CONTRIBUTING.adoc[]を参照して下さい。
+
 == 謝辞
 
 .このデータセットは以下を参照して作成しました:

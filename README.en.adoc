@@ -135,6 +135,14 @@ JSON files.
 
 This will output JSON files in the `{assets-dir}/json` directory.
 
+== Changelog
+
+Please see link:CHANGELOG.adoc[].
+
+== Contributing
+
+Please see link:CONTRIBUTING.adoc[].
+
 == Acknowledgment
 
 .This dataset was created using the following:
