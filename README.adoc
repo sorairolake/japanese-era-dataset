@@ -134,6 +134,14 @@ link:{yaml-dir}/modern.yaml[]::
 
 JSONファイルは``{assets-dir}/json``ディレクトリに出力されます。
 
+== ソースコード
+
+上流リポジトリはlink:https://github.com/sorairolake/japanese-era-dataset.git[]で公開されています。
+
+.ソースコードは以下のリンク先からも入手できます
+* https://gitlab.com/sorairolake/japanese-era-dataset.git
+* https://codeberg.org/sorairolake/japanese-era-dataset.git
+
 == 変更履歴
 
 link:CHANGELOG.adoc[]を参照して下さい。

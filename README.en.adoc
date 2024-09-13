@@ -135,6 +135,15 @@ JSON files.
 
 This will output JSON files in the `{assets-dir}/json` directory.
 
+== Source code
+
+The upstream repository is available at
+https://github.com/sorairolake/japanese-era-dataset.git.
+
+.The source code is also available at
+* https://gitlab.com/sorairolake/japanese-era-dataset.git
+* https://codeberg.org/sorairolake/japanese-era-dataset.git
+
 == Changelog
 
 Please see link:CHANGELOG.adoc[].
