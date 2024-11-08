@@ -16,7 +16,7 @@ on:
 jobs:
   test:
     name: Test
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -42,7 +42,7 @@ jobs:
 
   deno-test:
     name: Test Deno scripts
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
