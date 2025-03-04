@@ -2,10 +2,9 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
-alias all := default
-
 # Run default recipe
-default: fmt
+@_default:
+    just -l
 
 # Run the formatter
 @fmt:
