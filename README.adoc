@@ -161,5 +161,5 @@ link:CONTRIBUTING.adoc[]を参照して下さい。
 
 特に断りのない限り、このリポジトリの内容は__CC0 1.0 全世界__の条件の下で配布されています。
 
-このプロジェクトはlink:{reuse-spec-url}[_REUSE Specification_]のバージョン 3.2に準拠しています。
+このプロジェクトはlink:{reuse-spec-url}[_REUSE Specification_]のバージョン 3.3に準拠しています。
 著作権及びライセンスの詳細な情報については、個々のファイルの著作権表示を参照して下さい。
