@@ -15,7 +15,7 @@
 :deno-url: https://deno.com/
 :jawp-url: https://ja.wikipedia.org
 :jawp-article-url: {jawp-url}/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_(%E6%97%A5%E6%9C%AC)
-:reuse-spec-url: https://reuse.software/spec/
+:reuse-spec-url: https://reuse.software/spec-3.3/
 
 image:{ci-badge}[CI,link={ci-url}]
 
