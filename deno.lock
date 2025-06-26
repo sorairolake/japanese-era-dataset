@@ -1,0 +1,21 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/path@^1.1.0": "1.1.0",
+    "jsr:@std/yaml@^1.0.7": "1.0.8"
+  },
+  "jsr": {
+    "@std/path@1.1.0": {
+      "integrity": "ddc94f8e3c275627281cbc23341df6b8bcc874d70374f75fec2533521e3d6886"
+    },
+    "@std/yaml@1.0.8": {
+      "integrity": "90b8aab62995e929fa0ea5f4151c287275b63e321ac375c35ff7406ca60c169d"
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/path@^1.1.0",
+      "jsr:@std/yaml@^1.0.7"
+    ]
+  }
+}
