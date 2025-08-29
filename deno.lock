@@ -1,21 +1,28 @@
 {
-  "version": "4",
+  "version": "5",
   "specifiers": {
-    "jsr:@std/path@^1.1.0": "1.1.0",
-    "jsr:@std/yaml@^1.0.7": "1.0.8"
+    "jsr:@std/internal@^1.0.10": "1.0.10",
+    "jsr:@std/path@^1.1.2": "1.1.2",
+    "jsr:@std/yaml@^1.0.9": "1.0.9"
   },
   "jsr": {
-    "@std/path@1.1.0": {
-      "integrity": "ddc94f8e3c275627281cbc23341df6b8bcc874d70374f75fec2533521e3d6886"
+    "@std/internal@1.0.10": {
+      "integrity": "e3be62ce42cab0e177c27698e5d9800122f67b766a0bea6ca4867886cbde8cf7"
     },
-    "@std/yaml@1.0.8": {
-      "integrity": "90b8aab62995e929fa0ea5f4151c287275b63e321ac375c35ff7406ca60c169d"
+    "@std/path@1.1.2": {
+      "integrity": "c0b13b97dfe06546d5e16bf3966b1cadf92e1cc83e56ba5476ad8b498d9e3038",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/yaml@1.0.9": {
+      "integrity": "6bad3dc766dd85b4b37eabcba81b6aa4eac7a392792ae29abcfb0f90602d55bb"
     }
   },
   "workspace": {
     "dependencies": [
-      "jsr:@std/path@^1.1.0",
-      "jsr:@std/yaml@^1.0.7"
+      "jsr:@std/path@^1.1.2",
+      "jsr:@std/yaml@^1.0.9"
     ]
   }
 }
