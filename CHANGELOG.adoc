@@ -1,0 +1,33 @@
+// SPDX-FileCopyrightText: 2024 Shun Sakai
+//
+// SPDX-License-Identifier: CC0-1.0
+
+= Changelog
+:toc: preamble
+:project-url: https://github.com/sorairolake/japanese-era-dataset
+:compare-url: {project-url}/compare
+:issue-url: {project-url}/issues
+:pull-request-url: {project-url}/pull
+
+All notable changes to this project will be documented in this file.
+
+The format is based on https://keepachangelog.com/[Keep a Changelog], and this
+project adheres to https://calver.org/[Calendar Versioning].
+
+== {compare-url}/v2024.06.03\...v2025.09.01[2025.09.01] - 2025-09-01
+
+=== Changed
+
+* Change to use `deno.jsonc` ({pull-request-url}/11[#11])
+
+== {compare-url}/v2024.05.31\...v2024.06.03[2024.06.03] - 2024-06-03
+
+=== Changed
+
+* Rewrite scripts in TypeScript ({pull-request-url}/8[#8])
+
+== {project-url}/releases/tag/v2024.05.31[2024.05.31] - 2024-05-31
+
+=== Added
+
+* Initial release

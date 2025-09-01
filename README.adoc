@@ -1,34 +1,33 @@
-// SPDX-FileCopyrightText: None
+// SPDX-FileCopyrightText: 2024 Shun Sakai
 //
 // SPDX-License-Identifier: CC0-1.0
 
-= Dataset of the Japanese era
+= 日本の元号のデータセット
 :github-url: https://github.com
 :project-url: {github-url}/sorairolake/japanese-era-dataset
 :shields-url: https://img.shields.io
 :ci-badge: {shields-url}/github/actions/workflow/status/sorairolake/japanese-era-dataset/CI.yaml?branch=develop&style=for-the-badge&logo=github&label=CI
 :ci-url: {project-url}/actions?query=branch%3Adevelop+workflow%3ACI++
-:enwp-url: https://en.wikipedia.org
-:enwp-article-url: {enwp-url}/wiki/Japanese_era_name
+:jawp-url: https://ja.wikipedia.org
+:jawp-article-url: {jawp-url}/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_(%E6%97%A5%E6%9C%AC)
 :assets-dir: assets
 :yaml-dir: {assets-dir}/yaml
 :deno-url: https://deno.com/
-:jawp-url: https://ja.wikipedia.org
-:jawp-article-url: {jawp-url}/wiki/%E5%85%83%E5%8F%B7%E4%B8%80%E8%A6%A7_(%E6%97%A5%E6%9C%AC)
-:reuse-spec-url: https://reuse.software/spec/
+:enwp-url: https://en.wikipedia.org
+:enwp-article-url: {enwp-url}/wiki/Japanese_era_name
+:reuse-spec-url: https://reuse.software/spec-3.3/
 
 image:{ci-badge}[CI,link={ci-url}]
 
-link:README.ja.adoc[日本語]
+link:README.en.adoc[English]
 
-This repository contains a dataset of the {enwp-article-url}[Japanese era] in
-YAML format.
+このリポジトリには、YAMLフォーマットのlink:{jawp-article-url}[日本の元号]のデータセットが含まれています。
 
-== Structure
+== 構造
 
-The era is represented by the associative array.
+元号は連想配列によって表現されています。
 
-.For example, the associative array representing the Heisei era is:
+.例えば、平成を表す連想配列は次の通りです:
 [source,yaml]
 ----
 era:
@@ -41,114 +40,122 @@ era:
     end: 2019-05-01
 ----
 
-.The meanings of the key/value pairs are as follows:
+.キーと値のペアの意味は次の通りです:
 `number`::
 
-  The position of the era in the list of Japanese era names. `null` if not in
-  the list.
+  その元号の元号一覧の中での位置。
+  一覧にない場合は``null``。
 
 `kanji`::
 
-  The era name in kanji.
+  漢字での元号名。
 
 `kyujitai`::
 
-  The era name in kyūjitai. `null` if same as `kanji`.
+  旧字体での元号名。
+  ``kanji``と同じ場合は``null``。
 
 `english`::
 
-  The era name in English.
+  英語での元号名。
 
 `start`::
 
-  The start date of the era.
+  その元号が始まった日付。
 
 `end`::
 
-  The end date of the era. `null` for the current era.
+  その元号が終わった日付。
+  現在の元号の場合は``null``。
 
-.The following keys exist in the Nanboku-chō period:
+.南北朝時代では以下のキーが存在します:
 `southern-number`::
 
-  The position of the era in the list of the Southern Court era names. This may
-  be `null`.
+  その元号の南朝の元号一覧の中での位置。
+  ``null``の場合がある。
 
 `northern-number`::
 
-  The position of the era in the list of the Northern Court era names. This may
-  be `null`.
+  その元号の北朝の元号一覧の中での位置。
+  ``null``の場合がある。
 
-=== Directory structure
+=== ディレクトリ構造
 
-.The YAML files representing the eras are as follows:
+.元号は以下のYAMLファイルによって表現されています:
 link:{yaml-dir}/asuka.yaml[]::
 
-  It contains the eras in the Asuka period (from _Taika_ to _Wadō_).
+  飛鳥時代の元号を含みます（大化から和銅まで）。
 
 link:{yaml-dir}/nara.yaml[]::
 
-  It contains the eras in the Nara period (from _Reiki_ to _Enryaku_).
+  奈良時代の元号を含みます（霊亀から延暦まで）。
 
 link:{yaml-dir}/heian.yaml[]::
 
-  It contains the eras in the Heian period (from _Daidō_ to _Genryaku_).
+  平安時代の元号を含みます（大同から元暦まで）。
 
 link:{yaml-dir}/kamakura.yaml[]::
 
-  It contains the eras in the Kamakura period (from _Bunji_ to _Karyaku_).
+  鎌倉時代の元号を含みます（文治から嘉暦まで）。
 
 link:{yaml-dir}/southern-court.yaml[]::
 
-  It contains the eras of the Southern Court (from _Gentoku_ to _Genchū_).
+  南朝（大覚寺統）の元号を含みます（元徳から元中まで）。
 
 link:{yaml-dir}/northern-court.yaml[]::
 
-  It contains the eras of the Northern Court (from _Gentoku_ to _Meitoku_).
+  北朝（持明院統）の元号を含みます（元徳から明徳まで）。
 
 link:{yaml-dir}/muromachi.yaml[]::
 
-  It contains the eras in the Muromachi period (from _Ōei_ to _Genki_).
+  室町時代の元号を含みます（応永から元亀まで）。
 
 link:{yaml-dir}/azuchi-momoyama.yaml[]::
 
-  It contains the eras in the Azuchi–Momoyama period (from _Tenshō_ to
-  _Keichō_).
+  安土桃山時代の元号を含みます（天正から慶長まで）。
 
 link:{yaml-dir}/edo.yaml[]::
 
-  It contains the eras in the Edo period (from _Genna_ to _Keiō_).
+  江戸時代の元号を含みます（元和から慶応まで）。
 
 link:{yaml-dir}/modern.yaml[]::
 
-  It contains the eras of the modern era (after _Meiji_).
+  明治以降の元号を含みます。
 
-=== Convert to other formats
+=== 他のフォーマットへの変換
 
-This project contains {deno-url}[Deno] scripts for converting YAML files to
-JSON files.
+このプロジェクトにはYAMLファイルをJSONファイルに変換するためのlink:{deno-url}[Deno]スクリプトが含まれています。
 
-.To convert to JSON files
+.JSONファイルへ変換
 [source,sh]
 ----
 ./scripts/yaml2json.ts
 ----
 
-This will output JSON files in the `{assets-dir}/json` directory.
+JSONファイルは``{assets-dir}/json``ディレクトリに出力されます。
 
-== Acknowledgment
+== ソースコード
 
-.This dataset was created using the following:
-* {jawp-article-url}[元号一覧 (日本)] on the Japanese Wikipedia (for the era
-  name in kanji).
-* {enwp-article-url}[Japanese era name] on the English Wikipedia (for the era
-  name in English).
-* {github-url}/nagataaaas/Japanera (for the start date and the end date).
+上流リポジトリはlink:https://github.com/sorairolake/japanese-era-dataset.git[]で公開されています。
 
-== License
+== 変更履歴
 
-Unless otherwise noted, the contents of this repository are distributed under
-the terms of the _CC0 1.0 Universal_.
+link:CHANGELOG.adoc[]を参照して下さい。
 
-This project is compliant with version 3.0 of the
-{reuse-spec-url}[_REUSE Specification_]. See copyright notices of individual
-files for more details on copyright and licensing information.
+== 貢献方法
+
+link:CONTRIBUTING.adoc[]を参照して下さい。
+
+== 謝辞
+
+.このデータセットは以下を参照して作成しました:
+* 日本語版ウィキペディアのlink:{jawp-article-url}[元号一覧 (日本)]（漢字での元号名）。
+* 英語版ウィキペディアのlink:{enwp-article-url}[Japanese era name]（英語での元号名）。
+* link:{github-url}/nagataaaas/Japanera[]（元号の開始日と終了日）。
+
+== ライセンス
+
+特に断りのない限り、このリポジトリの内容は__CC0 1.0 全世界__の条件の下で配布されています。
+
+このプロジェクトはlink:{reuse-spec-url}[_REUSE Specification_]のバージョン 3.3に準拠しています。
+著作権及びライセンスの詳細な情報については、個々のファイルの著作権表示を参照して下さい。
