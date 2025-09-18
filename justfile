@@ -16,7 +16,7 @@ lint:
 
 # Run `deno fmt`
 deno-fmt:
-    deno fmt scripts/*.ts
+    deno fmt deno.jsonc scripts/*.ts
 
 # Run `deno lint`
 deno-lint:

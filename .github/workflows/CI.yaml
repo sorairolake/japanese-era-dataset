@@ -10,8 +10,6 @@ on:
     branches:
       - "develop"
       - "master"
-  schedule:
-    - cron: "0 0 * * 0"
 
 jobs:
   test:
@@ -34,9 +32,9 @@ jobs:
           npx prettier -v
           pip install yamllint
           yamllint -v
-      - name: Check code formatted
-        run: npx prettier -c assets/yaml/*.yaml
-      - name: Check no lint warnings
+      - name: Run formatter in check mode
+        run: npx prettier -c "**.{json,md,yaml,yml}"
+      - name: Run linter
         run: yamllint -s assets/yaml/*.yaml
 
   deno-test:
@@ -49,9 +47,9 @@ jobs:
         uses: denoland/setup-deno@v2.0.3
         with:
           deno-version: v2.x
-      - name: Check code formatted
-        run: deno fmt --check scripts/*.ts
-      - name: Check no lint warnings
+      - name: Run formatter in check mode
+        run: deno fmt --check deno.jsonc scripts/*.ts
+      - name: Run linter
         run: deno lint scripts/*.ts
       - name: Type-check
         run: deno check scripts/*.ts
