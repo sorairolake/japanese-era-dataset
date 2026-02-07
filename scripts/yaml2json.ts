@@ -14,6 +14,8 @@ const assetsDir = path.join(
 const yamlDir = path.join(assetsDir, "yaml");
 const jsonDir = path.join(assetsDir, "json");
 
+await Deno.mkdir(jsonDir, { recursive: true });
+
 for await (const dirEntry of Deno.readDir(yamlDir)) {
   const yamlFile = path.join(yamlDir, dirEntry.name);
   const inputText = await Deno.readTextFile(yamlFile);

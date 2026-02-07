@@ -2,6 +2,8 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
+export DENO_NO_PACKAGE_JSON := "1"
+
 # Run default recipe
 _default:
     just -l
