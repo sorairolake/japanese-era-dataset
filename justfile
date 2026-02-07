@@ -14,7 +14,7 @@ fmt:
 
 # Run the linter
 lint:
-    yamllint -s assets/yaml/*.yaml
+    uvx yamllint -s assets/yaml/*.yaml
 
 # Run `deno fmt`
 deno-fmt:

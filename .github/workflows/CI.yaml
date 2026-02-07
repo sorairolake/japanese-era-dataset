@@ -22,21 +22,19 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v6
         with:
-          node-version: 22
-      - name: Setup Python
-        uses: actions/setup-python@v6
+          node-version: 24
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v7.2.1
         with:
-          python-version: "3.13"
+          python-version: "3.14" # latest stable version of Python 3
       - name: Install dependencies
         run: |
           npm ci
           npx prettier -v
-          pip install yamllint
-          yamllint -v
       - name: Run formatter in check mode
         run: npx prettier -c "**.{json,md,yaml,yml}"
       - name: Run linter
-        run: yamllint -s assets/yaml/*.yaml
+        run: uvx yamllint -s assets/yaml/*.yaml
 
   deno-test:
     name: Test Deno scripts
