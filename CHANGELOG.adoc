@@ -14,6 +14,12 @@ All notable changes to this project will be documented in this file.
 The format is based on https://keepachangelog.com/[Keep a Changelog], and this
 project adheres to https://calver.org/[Calendar Versioning].
 
+== {compare-url}/v2025.09.01\...HEAD[Unreleased]
+
+=== Fixed
+
+* Change `start` of `meiji` to `1868-10-23` ({pull-request-url}/89[#89])
+
 == {compare-url}/v2024.06.03\...v2025.09.01[2025.09.01] - 2025-09-01
 
 === Changed
