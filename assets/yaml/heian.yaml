@@ -409,7 +409,7 @@ era:
     start: 1084-03-21
     end: 1087-05-17
 
-  kanji: "number: 70"
+  kanji:
     kanji: "寛治"
     kyujitai: "寛\U000E0101治"
     english: "Kanji"
