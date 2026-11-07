@@ -37,7 +37,7 @@ era:
     kyujitai: null
     english: "Heisei"
     start: 1989-01-08
-    end: 2019-05-01
+    end: 2019-04-30
 ----
 
 .キーと値のペアの意味は次の通りです:
