@@ -23,7 +23,7 @@ era:
     kyujitai: null
     english: "Shōwa"
     start: 1926-12-25
-    end: 1989-01-08
+    end: 1989-01-07
 
   heisei:
     number: 231
@@ -31,7 +31,7 @@ era:
     kyujitai: null
     english: "Heisei"
     start: 1989-01-08
-    end: 2019-05-01
+    end: 2019-04-30
 
   reiwa:
     number: 232

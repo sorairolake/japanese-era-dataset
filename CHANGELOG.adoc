@@ -19,6 +19,8 @@ project adheres to https://calver.org/[Calendar Versioning].
 === Fixed
 
 * Change `start` of `meiji` to `1868-10-23` ({pull-request-url}/89[#89])
+* Change `end` of `showa` to `1989-01-07` ({pull-request-url}/91[#91])
+* Change `end` of `heisei` to `2019-04-30` ({pull-request-url}/91[#91])
 
 == {compare-url}/v2024.06.03\...v2025.09.01[2025.09.01] - 2025-09-01
 
