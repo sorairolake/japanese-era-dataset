@@ -33,9 +33,9 @@ link:README.en.adoc[English]
 era:
   heisei:
     number: 231
-    kanji: 平成
+    kanji: "平成"
     kyujitai: null
-    english: Heisei
+    english: "Heisei"
     start: 1989-01-08
     end: 2019-05-01
 ----
