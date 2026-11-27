@@ -15,14 +15,14 @@ on:
 jobs:
   test:
     name: Test
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v7
       - name: Setup Node.js environment
         uses: actions/setup-node@v7
         with:
-          node-version: 24
+          node-version: 26
       - name: Setup uv
         uses: astral-sh/setup-uv@v10.4.0
         with:
@@ -38,7 +38,7 @@ jobs:
 
   deno-test:
     name: Test Deno scripts
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v7

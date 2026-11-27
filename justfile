@@ -34,4 +34,4 @@ generate-json:
 
 # Run the linter for GitHub Actions workflow files
 lint-github-actions:
-    actionlint -verbose
+    jactionlint --verbose --profile correctness
